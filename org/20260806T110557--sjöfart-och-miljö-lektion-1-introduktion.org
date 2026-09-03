@@ -1,0 +1,215 @@
+#+TITLE: Sjöfart och Miljö
+#+SUBTITLE: 7,5 hp
+#+AUTHOR:
+#+DATE: VT26
+#+modified: [2026-08-31 mån 13:08]
+
+#+EXPORT_FILE_NAME: ../20260806T110557--sjöfart-och-miljö-lektion-1-introduktion.html
+
+#+INCLUDE: "../config/config.org"
+#+INCLUDE: "../config/title-slide.org"
+
+#+REVEAL_HTML: <style>.gles-lista li { margin-bottom: 1.5em !important; }</style>
+
+* Lektion 1: Introduktion
+
+ - Kursansvarig
+ - Kursupplägg
+ - Moodle
+ - Examination
+ - Studentinflytande
+
+#+BEGIN_NOTES
+#+END_NOTES
+** Kursansvarig - Kim Alfredsson
+#+BEGIN_NOTES
+- Ny på skolan, vikarierar för Ellinor
+- Började till sjöss 2001
+- allt möjligt sedan dess
+- skolning torrlastning - offshore - ankarhantering - seismik - sjömätning - roro
+- sen ca fem år på expeditionskryssning
+- spenderat mycket tid på varv, både nybyggnation och med gammalt skrot
+#+END_NOTES
+
+*** \nbsp
+#+BEGIN_NOTES
+- Ny på skolan, vikarierar för Ellinor
+- Började till sjöss 2001
+- allt möjligt sedan dess
+- skolning torrlastning - offshore - ankarhantering - seismik - sjömätning - roro
+- sen ca fem år på expeditionskryssning
+- spenderat mycket tid på varv, både nybyggnation och med gammalt skrot
+#+END_NOTES
+#+REVEAL_HTML: <div class="r-stack">
+#+REVEAL_HTML:   <img class="fragment" src="img/kim1.jpg" width="600">
+#+REVEAL_HTML:   <img class="fragment" src="img/kim2.jpg" width="650">
+#+REVEAL_HTML:   <img class="fragment" src="img/kim3.jpg" width="700">
+#+REVEAL_HTML:   <img class="fragment" src="img/kim4.jpg" width="500">
+#+REVEAL_HTML: </div>
+#+BEGIN_NOTES
+#+END_NOTES
+** Sjöfart och Miljö
+ #+BEGIN_NOTES
+- Sjöfart och Miljö: uppdelad i två delar med något olika mål och syften - jag kommer till det
+- arbetsmiljön har störst del
+- 7,5hp som motsvarar ca 200 arbetstimmar - vad jag förväntar mig ni lägger ner - planera för dem
+ #+END_NOTES
+#+ATTR_REVEAL: :frag (appear)
+- 7,5 hp
+- 200 timmar
+- Tonvikt på arbetsmiljö
+*** Kursplan - Kursmål
+:PROPERTIES:
+:reveal_extra_attr: class="case-full-text"
+:END:
+
+#+REVEAL_HTML: <div class="case-text">
+
+Studenten förväntas efter avslutad kurs kunna:
+#+ATTR_REVEAL: :frag (appear)
+- redogöra för effekter av utsläpp från fartyg
+- redogöra för de bestämmelser som reglerar sjöfartens miljöeffekter
+- visa kunskap och förståelse för aktiviteter och utrustning som kan minska sjöfartens miljöeffekter
+- redogöra för fysiska, organisatoriska och sociala faktorer som påverkar arbetsmiljön ombord
+- redogöra för de bestämmelser som reglerar arbetsmiljö och säkerhet ombord
+- visa kunskap och förståelse för aktiviteter och åtgärder för att minska ohälsa och olycksfall ombord
+- söka, sammanställa och kritiskt värdera relevant information gällande sjöfartens miljöpåverkan
+- söka, sammanställa och kritiskt värdera relevant information gällande arbetsmiljön ombord
+- praktiskt tillämpa metoder och tekniker för att förebygga ohälsa och olycksfall, samt säkerställa en god arbetsmiljö ombord
+- välja och hantera personlig skyddsutrustning för vanligt förekommande arbeten ombord
+- ur ett helhetsperspektiv göra en hållbarhetsbedömning av olika åtgärder för att minska sjöfartens miljöpåverkan
+- identifiera och formulera arbetsmiljöproblem och ur ett helhetsperspektiv
+- bedöma olika åtgärder för att förebygga ohälsa och olycksfall, samt säkerställa en god arbetsmiljö ombord
+
+#+REVEAL_HTML: </div>
+
+*** Mål
+#+REVEAL_HTML: <section>
+#+REVEAL_HTML:       <img width="450" src="img/målbild-1.jpg">
+#+REVEAL_HTML:       <img width="450" src="img/målbild-2.jpg">
+#+REVEAL_HTML: </section>
+
+#+REVEAL_HTML: <div style="text-align: left;">
+#+ATTR_REVEAL: :frag (appear)
+/Efter avslutad kurs ha den kunskap som krävs för att utföra och arbetsleda arbete ombord på ett säkert sätt./
+#+REVEAL_HTML: </div>
+
+*** *V.36 -> V.41: Arbetsmiljö*
+#+ATTR_REVEAL: :frag (appear)
+- Reglering
+- Risker och riskhantering
+- Arbetsmiljö
+
+*** *V.42 -> V.44: Sjöfartens påverkan på miljö*
+#+ATTR_REVEAL: :frag (appear)
+        * Miljöeffekter
+        * Klimateffekter
+        * Regelverk
+** Moodle
+ #+BEGIN_NOTES
+- öppnas upp vecka för vecka - materialet kommer alltså upp efterhand
+- finns dokument där redan nu
+- studiehandlednng
+- behöver inte köpa någon litteratur
+- kommer använda en bok i miljödelen, men den finns på biblioteket som ebok
+ #+END_NOTES
+
+- Kurslitteratur
+- Instuderingsfrågor
+- Formativa tester
+
+** Studiehandledning
+#+BEGIN_NOTES
+- finns på moodle
+- innehåller det mesta ni behöver veta
+- undrar ni om något; börja med att konsultera den
+#+END_NOTES
+
+** Examination
+#+ATTR_REVEAL: :frag (appear)
+- Två övningar
+- Sex inlämningsuppgifter
+- Ett seminarie
+#+BEGIN_NOTES
+- praktiska övningmoment, bland annat gasmätning
+- de flesta av uppgifterna är relaterat till första delen av kursen
+- ett seminare: arbetsmiljö
+#+END_NOTES
+
+** Sök i Studiehandledning
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="gles-lista"
+:END:
+1. Vem är examinator?
+2. När är deadline för inlämningsuppgift 1?
+#+BEGIN_NOTES
+- Examinator: innebär inte att han rättar tentor, det kommer jag göra.
+#+END_NOTES
+
+** Ej inne på tid - underkänd
+#+BEGIN_NOTES
+- kommer fler chanser men senare
+#+END_NOTES
+
+*** Omexamination på uppgifter
+*En* gång under LP 1, en andra gång under LP 2
+#+BEGIN_NOTES
+- om ej klart då - nästa kurstillfälle
+#+END_NOTES
+
+*** Skriftlig tentamen
+[[./img/tentamen.jpg]]
+*** Sök i Studiehandledning
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="gles-lista"
+:END:
+1. Vad krävs för G?
+2. Vad krävs för VG?
+*** För betyget *G* krävs:
+- Godkänt resultat på samtliga examinerande moment
+*** För *VG* krävs i tillägg:
+- Väl godkänt på inlämningsuppgift 7 samt;
+- Väl godkänt på salstentamen
+** Kontakt
+- Moodle: Frågeforum eller enskilt
+- Kontor mot innergården
+- Telefon eller epost
+** Kursutvärdering
+#+ATTR_REVEAL: :frag (appear)
+- Önskat seminare
+- Inlämningsuppgifter
+
+#+BEGIN_NOTES
+- Tidigare studenter önskat att man har ett seminarie istället för inlämningsuppgift
+- Tidigare studenter har uppskattat inlämningsuppgifter, även om en del tyckt att det varit mycket arbete, så därför har jag behållt upplägget
+#+END_NOTES
+** Gruppuppgift
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+
+#+ATTR_REVEAL: :frag (appear)
+1. Vad har jag för /förväntningar/ på den här kursen.
+2. Vad har jag för /farhågor inför/ den här kursen.
+3. Vad kan *jag* bidra med i kursen.
+** Studentinflytande
+#+ATTR_HTML: :width 300px
+[[./img/introduktion_padlet_qr_code.png]]
+** \nbsp
+:PROPERTIES:
+:reveal_background_iframe: https://padlet.com/kimalfredsson/sjofart-och-miljo-jrb38pajgk5caowa
+:END:
+** \nbsp
+#+REVEAL_HTML: <h2 class="r-fit-text">Frågor</h2>
+** Vecka 1 - Mål
+
+#+ATTR_REVEAL: :frag (appear)
+- Få en grundläggande förståelse för regler som styr arbetsmiljön
+- Få en grundläggande förståelse för de risker som finns ombord
+- Orientering kring hur man arbetar med arbetsmiljö ombord
+
+#+ATTR_REVEAL: :frag (appear)
+*Medtag dator etc.*

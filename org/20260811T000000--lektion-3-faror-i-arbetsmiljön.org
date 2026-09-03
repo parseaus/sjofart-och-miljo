@@ -1,0 +1,483 @@
+#+TITLE: Lektion 3: faror i arbetsmiljön
+#+SUBTITLE: Sjöfart och Miljö
+#+AUTHOR:
+#+DATE: [2026-08-11 tisdag 00:00]
+#+identifier: 20260811T000000
+#+modified: [2026-09-02 ons 10:53]
+#+EXPORT_FILE_NAME: ../20260811T000000--lektion-3-faror-i-arbetsmiljön.html
+#+INCLUDE: "../config/config.org"
+
+#+REVEAL_TITLE_SLIDE:
+
+* Lektion 3: Faror i arbetsmiljön
+** Repetition
+Lekion 2 handlade om....
+** Svensk lagstiftning
+#+REVEAL_HTML: <section>
+#+REVEAL_HTML: <div style="font-size: 67%; width: 100%;">
+#+ATTR_REVEAL: :frag (appear)
+| Sjölagen (1994:1009) | Övergripande/Ekonomisk | Befälhavarens ansvar 6 kap. §1 och §14 |
+| Fartygssäkerhetslagen (2003:364) | Säkerhet | Säkerhetsorganisation (SMS, kap. 3. Arbetsmiljö, 4 kap: AML, ansvar, minderåriga, skyddsombud, 5 kap §1: Tillsyn) |
+| Sjömanslagen (1973:282) | Arbetsvillkor, sjömans rättigheter, disciplinärenden | §9 och §11 frånträde, §18–28 franskiljande och fartygsnämnd, §45–48 fartygsarbete |
+| Lagen om vilotid för sjömän (1998:958) | Vilotid | §1–7 vilotidskrav, §9–10 krav på arbetsordning |
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: </section>
+** IMO // Internationellt
+#+REVEAL_HTML: <section>
+#+REVEAL_HTML: <div style="font-size: 70%; width: 100%;">
+| ISM-koden (SOLAS Chapter IX) | Herald of Free Enterprise | Ökad säkerhet genom införlivande av Safety Management Systems (ansvar, procedurer, riskhantering, auditering, rapportering/lärande) | EG förordning 336/2006 |
+| MLC – Maritime Labour Convention (2006) | Sammanslagning av olika tidigare konventioner samt etablera modernare "minsta" krav | Att reglera arbetsvillkor, anställningsvillkor, bostadsutrymmen ombord, mat ombord, sjukvård ombord mm. | TSFS 2013:68 |
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: </section>
+** Föreskrifter
+* Lektion 3: Faror i arbetsmiljön
+** Gruppövning
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+
+AML. 3 Kap. §2-§2a: Vad innebär dessa två paragrafer i praktiken?
+** Plan - Do - Check - Act
+#+BEGIN_NOTES
+- ? Visa på tavlan
+- Hjul utan slut - arbetsmiljöarbetet är kontinuerligt
+- De aktiviteter som återkommer i arbetsmiljöarbetet
+- plan/riskbedömning: Identifiera problem, förbättringsmöjlighet, samla fakta, analysera orsaker, bestäm hur resultatet ska mätas
+- Do/åtgärder (genomföra): testa planen, dokumentera
+- Check/kontroll: jämför resultatet med målet, analysera data, bedöm om effekten blev den eftersträvda
+- undersökning/act/: inför och standardisera den nya arbetsmetoden, blev resultatet inte bra - börja om
+#+END_NOTES
+
+** SAM
+#+ATTR_HTML: :width 60%
+[[./img/pdca.png]]
+#+BEGIN_NOTES
+- Arbetsmiljöverkets version.
+- Samverkan - direkt i själva arbetet men också organiserat genom skyddombud
+#+END_NOTES
+
+** Gruppövning
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+I par om två: Skriv ner så många faror för människors hälsa ni kan komma på i arbetsmiljön ombord på ett fartyg.
+
+
+** \nbsp
+#+REVEAL_HTML: <div class="r-stack">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-1.png" width="600">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-16.png" width="650">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-7.png" height="600">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-2.png" width="600">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-8.png" height="450">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-3.png" width="650">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-14.png" width="700">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-4.png" width="370">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-5.png" width="600">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-10.png" width="650">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-6.png" width="700">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-15.png" width="450">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-9.png" width="600">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-12.png" width="650">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-13.png" width="720">
+#+REVEAL_HTML:   <img class="fragment" src="img/olycka-16.png" width="500">
+#+REVEAL_HTML: </div>
+
+** \nbsp
+#+REVEAL_HTML: <video data-autoplay muted controls width="700" src="img/olycka-3.mp4"></video>
+
+** \nbsp
+#+REVEAL_HTML: <video data-autoplay muted controls height="750" src="img/olycka-2.mp4"></video>
+#+BEGIN_NOTES
+- Vevstaksbrott
+#+END_NOTES
+
+
+** \nbsp
+#+REVEAL_HTML: <video data-autoplay muted controls height="750" src="img/olycka-2.webm"></video>
+
+** Risk
+** Riskförståelse
+#+BEGIN_NOTES
+- ? Förstår vi risk på samma sätt?
+- Kognitiva faktorer: Vår egen mentala förmåga att uppfatta och processa risk - intelligens - kompetens - fördomar - tillgänglighetsheurestik; mental genväg där man förlitar sig på exempel man känner till sen innan - man bedömer det man minns som viktigt, jämför med om man inte minns.
+- Emotionella faktorer: rädsla, förväntan, spänning påverkar. Rädsla leder till motvilja, positiva känslor till högre risktagande
+- Kultur: om från en kultur som värdesätter tradition och stabilitet - ofta lägre acceptans för risker. kultur där innvation uppmuntras ofta tvärtom.
+- Socialt: vi har överlag en tendens att vilja passa in och tycka likadant som de omkring oss
+- ? skiljer det mellan kön?
+#+END_NOTES
+
+#+REVEAL_HTML: <svg class="risk-diagram"
+#+REVEAL_HTML:      viewBox="0 0 800 500"
+#+REVEAL_HTML:      role="img"
+#+REVEAL_HTML:      aria-label="Riskperception och påverkande faktorer">
+#+REVEAL_HTML:   <defs>
+#+REVEAL_HTML:     <marker id="risk-arrow" markerWidth="10" markerHeight="10"
+#+REVEAL_HTML:             refX="8" refY="3" orient="auto">
+#+REVEAL_HTML:       <path d="M0,0 L0,6 L9,3 z" fill="#111"/>
+#+REVEAL_HTML:     </marker>
+#+REVEAL_HTML:   </defs>
+#+REVEAL_HTML:
+#+REVEAL_HTML:   <!-- 1. Central node -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="1">
+#+REVEAL_HTML:     <rect x="275" y="190" width="250" height="60" rx="18"
+#+REVEAL_HTML:           fill="#ffe000" stroke="#111" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="400" y="225" text-anchor="middle" font-size="26">
+#+REVEAL_HTML:       Riskperception
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+#+REVEAL_HTML:
+#+REVEAL_HTML:   <!-- 2. Kognitiva faktorer + arrow -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="2">
+#+REVEAL_HTML:     <ellipse cx="140" cy="90" rx="110" ry="50"
+#+REVEAL_HTML:              fill="#c77bb5" stroke="#111" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="140" y="84" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       Kognitiva
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="140" y="108" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       faktorer
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <line x1="210" y1="130" x2="280" y2="180"
+#+REVEAL_HTML:           stroke="#111" stroke-width="5"
+#+REVEAL_HTML:           marker-end="url(#risk-arrow)"/>
+#+REVEAL_HTML:   </g>
+#+REVEAL_HTML:
+#+REVEAL_HTML:   <!-- 3. Emotionella faktorer + arrow -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="3">
+#+REVEAL_HTML:     <ellipse cx="660" cy="90" rx="110" ry="50"
+#+REVEAL_HTML:              fill="#c77bb5" stroke="#111" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="660" y="84" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       Emotionella
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="660" y="108" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       faktorer
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <line x1="590" y1="130" x2="510" y2="180"
+#+REVEAL_HTML:           stroke="#111" stroke-width="5"
+#+REVEAL_HTML:           marker-end="url(#risk-arrow)"/>
+#+REVEAL_HTML:   </g>
+#+REVEAL_HTML:
+#+REVEAL_HTML:   <!-- 4. Kultur och social dynamik + arrow -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="4">
+#+REVEAL_HTML:     <ellipse cx="400" cy="420" rx="110" ry="50"
+#+REVEAL_HTML:              fill="#c77bb5" stroke="#111" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="400" y="414" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       Kultur och
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="400" y="438" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       social dynamik
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <line x1="400" y1="370" x2="400" y2="260"
+#+REVEAL_HTML:           stroke="#111" stroke-width="5"
+#+REVEAL_HTML:           marker-end="url(#risk-arrow)"/>
+#+REVEAL_HTML:   </g>
+#+REVEAL_HTML: </svg>
+** Bild 1 - no safety harness
+:PROPERTIES:
+:reveal_background: img/no-safety-harness.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild 2 - barrels
+:PROPERTIES:
+:reveal_background: img/walking-on-barrels.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild 3 - sit on pallet
+:PROPERTIES:
+:reveal_background: img/sit-on-pallet.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild 4 - on anchor
+:PROPERTIES:
+:reveal_background: img/on-anchor.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild 5 - saxlift
+:PROPERTIES:
+:reveal_background: img/saxlift.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild 6 - slipmaskin
+:PROPERTIES:
+:reveal_background: img/cutting-by-explosive.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild 7 - målning
+:PROPERTIES:
+:reveal_background: img/painting-ship-side.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild 8 - vapen
+:PROPERTIES:
+:reveal_background: img/sitting-on-gun.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** PDSA
+:PROPERTIES:
+:reveal_background: img/pdsa.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** \nbsp
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="case-full-text"
+:END:
+
+#+REVEAL_HTML: <div class="case-text">
+
+*Very serious casualty: falling from height during inspection of water ballast tank*
+
+*What happened?*
+
+On board a 37,000 gt containership whilst at sea, the chief officer entered into a water ballast tank for a routine inspection. Before the entry, he measured the tank's atmosphere. He descended through the open manhole into the darkened tank, holding the lit torch in one hand. The bosun stood at the tank access monitoring the chief officer's progress and an AB stood behind the bosun. The chief officer stopped at the fifth or sixth rung of the vertical ladder, almost level with a transverse stringer through which the ladder continued. He took another reading from the gas analyser and informed the bosun that the oxygen level was between 20.8 per cent and 20.9 per cent.
+
+The chief officer then stepped to his left onto the stringer. At the same time, the bosun stepped back from the access and started talking to the AB. A few seconds later, there was a loud crashing sound in the tank. The bosun illuminated the tank with his torch and saw the chief officer lying at the bottom of the tank. The officer was recovered and air-lifted to the hospital for medical treatment, but was declared dead before arrival. As the chief officer stepped onto the stringer moments before he fell, it is almost certain that he fell off its un-guarded edge, possibly as a result of slipping on the sludgy coating while holding his torch in one hand and the gas analyser in the other.
+
+#+REVEAL_HTML: </div>
+#+BEGIN_NOTES
+- [[https://wwwcdn.imo.org/localresources/en/OurWork/IIIS/Documents/Lessons%20learned%20English/j%20FSI%2020.pdf][IMO - Lessons learned 2025]]
+- Summering av olyckan; från IMO
+- ? Varför hände det här?
+- ? Vad kunde man gjort för att förebygga dödsfallet?
+#+END_NOTES
+** PDCA
+[[/home/kim/sync/onedrive/01.projekt/ht26-sjöfart-och-miljö/presentationer/img/pdca-2.png]]
+** Åtgärdstrappan
+[[/home/kim/sync/onedrive/01.projekt/ht26-sjöfart-och-miljö/presentationer/img/åtgärdstrappan.png]]
+** Permit to Work System
+#+REVEAL_HTML: <svg class="ptw-diagram"
+#+REVEAL_HTML:      viewBox="0 0 1000 650"
+#+REVEAL_HTML:      role="img"
+#+REVEAL_HTML:      aria-label="Permit to Work System">
+
+#+REVEAL_HTML:   <!-- Main system -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="1">
+#+REVEAL_HTML:     <rect x="50" y="30" width="900" height="110" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="500" y="98" text-anchor="middle"
+#+REVEAL_HTML:           font-size="34" font-family="Arial">
+#+REVEAL_HTML:       Permit to Work System
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- Row 1 -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="2">
+#+REVEAL_HTML:     <rect x="50" y="170" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="190" y="240" text-anchor="middle"
+#+REVEAL_HTML:           font-size="30" font-family="Arial">
+#+REVEAL_HTML:       Work Permit
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="3">
+#+REVEAL_HTML:     <rect x="360" y="170" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="500" y="220" text-anchor="middle"
+#+REVEAL_HTML:           font-size="28" font-family="Arial">
+#+REVEAL_HTML:       Risk Assessment
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="500" y="260" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       (TRA, SJA, RA)
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="4">
+#+REVEAL_HTML:     <rect x="670" y="170" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="810" y="240" text-anchor="middle"
+#+REVEAL_HTML:           font-size="30" font-family="Arial">
+#+REVEAL_HTML:       Checklists
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- Row 2 -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="5">
+#+REVEAL_HTML:     <rect x="50" y="330" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="190" y="380" text-anchor="middle"
+#+REVEAL_HTML:           font-size="27" font-family="Arial">
+#+REVEAL_HTML:       Enclosed Space Entry
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="190" y="420" text-anchor="middle"
+#+REVEAL_HTML:           font-size="27" font-family="Arial">
+#+REVEAL_HTML:       Certificate
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="6">
+#+REVEAL_HTML:     <rect x="360" y="330" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="500" y="380" text-anchor="middle"
+#+REVEAL_HTML:           font-size="27" font-family="Arial">
+#+REVEAL_HTML:       Toolbox Talk
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="500" y="420" text-anchor="middle"
+#+REVEAL_HTML:           font-size="24" font-family="Arial">
+#+REVEAL_HTML:       (före-jobb samtal)
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="7">
+#+REVEAL_HTML:     <rect x="670" y="330" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="810" y="370" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       Rutiner för
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="810" y="405" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       administration, träning
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="810" y="440" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       och auditering
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML: </svg>
+** Permit to Work
+/"A permit to work system is a formal written system that controls certain types of work..."/
+** Ett permit to work"-system syftar till att:
+- Korrekt godkännande av arbetsaktiviteter,
+- tydliggöra för de som utför uppgiften vilka faror som finns relaterat till uppgiften,
+- definiera skyddsåtgärder,
+- försäkra sig om att ansvarig personal vet om aktiviteten,
+- tillse kontinuerlig kontroll och uppföljing,
+- hantera potentiella konflikter (SIMPOS)
+** Permit to work
+** \nbsp
+:PROPERTIES:
+:reveal_extra_attr: class="case-full-text"
+:reveal_background: #fffff2
+:END:
+
+#+REVEAL_HTML: <div class="case-text">
+*Very serious casualty: falling from height during inspection of water ballast tank*
+
+*Why did it happen?*
+
+
+The precautions taken by the Chief Officer before entry into the tank fell significantly short of the requirements of the vessel's procedures, the expectations of the vessel's managers, and industry best practice.
+
+The chief officer did not follow the permit to work system on board for entering into enclosed spaces.
+
+The danger of falling during tank inspections had not been recognized or considered as no permits to work aloft were issued for tank entries on board.
+
+*What can we learn?*
+- It is important to follow the permit to work system for entering into enclosed spaces on board and that if there is a danger of falling from height, the precautions for working aloft must also be considered.
+#+REVEAL_HTML: </div>
+** Isolering av farligt ämne eller medium
+#+REVEAL_HTML: <svg class="isolation-diagram"
+#+REVEAL_HTML:      viewBox="0 0 1100 500"
+#+REVEAL_HTML:      role="img"
+#+REVEAL_HTML:      aria-label="Isolering av farligt ämne eller medium">
+
+#+REVEAL_HTML:   <!-- 1. Farligt ämne eller medium -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="1">
+#+REVEAL_HTML:     <line x1="70" y1="100" x2="1000" y2="100"
+#+REVEAL_HTML:           stroke="#ffe44d" stroke-width="42"/>
+#+REVEAL_HTML:     <polygon points="1000,65 1060,100 1000,135"
+#+REVEAL_HTML:              fill="#ffe44d"/>
+#+REVEAL_HTML:     <text class="arrow-label" x="550" y="110" text-anchor="middle"
+#+REVEAL_HTML:           font-size="30" font-family="Arial">
+#+REVEAL_HTML:       Farligt ämne eller medium
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- 2. Inflöde av farligt ämne eller medium -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="2">
+#+REVEAL_HTML:     <line x1="70" y1="280" x2="390" y2="280"
+#+REVEAL_HTML:           stroke="#ffe44d" stroke-width="42"/>
+#+REVEAL_HTML:     <polygon points="390,245 450,280 390,315"
+#+REVEAL_HTML:              fill="#ffe44d"/>
+#+REVEAL_HTML:     <text class="arrow-label" x="230" y="290" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       Farligt ämne eller medium
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- 3. Isoleringspunkt -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="3">
+#+REVEAL_HTML:     <rect x="470" y="205" width="55" height="150"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- 4. Låsning/säkring -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="4">
+#+REVEAL_HTML:     <rect x="535" y="285" width="85" height="75" rx="5"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <path d="M550 285 V260 C550 215 605 215 605 260 V285"
+#+REVEAL_HTML:           fill="none" stroke="#ffe44d" stroke-width="20"/>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- 5. Kontrollerat flöde -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="5">
+#+REVEAL_HTML:     <line x1="650" y1="280" x2="1000" y2="280"
+#+REVEAL_HTML:           stroke="#4caf50" stroke-width="42"/>
+#+REVEAL_HTML:     <polygon points="1000,245 1060,280 1000,315"
+#+REVEAL_HTML:              fill="#4caf50"/>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- 6. Krav för isolering -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="6"
+#+REVEAL_HTML:      font-family="Arial" font-size="25" fill="#93a1a1">
+#+REVEAL_HTML:     <text x="680" y="355">• Dokumenteras och godkänns</text>
+#+REVEAL_HTML:     <text x="680" y="395">• Låses/säkras med ett eller flera lås</text>
+#+REVEAL_HTML:     <text x="680" y="435">• Måste godkännas innan avisolering</text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML: </svg>
+** Gruppövning
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift-2"
+:END:
+
+Ni ska utföra ett av följande:
+- Arbete i ballasttank eller,
+- 2000-timmarsservice på en huvudmaskin.
+
+Hur kan ni i praktiken lösa en isolation?
+** Maersk Interceptor
+#+REVEAL_HTML: <video muted controls height="750" src="media/interceptor.mp4"></video>
+** Avslut vecka 1
+*Mål med veckan*
+
+- Få en grundläggande förståelse för regler som styr arbetsmiljön
+- Få en grundläggande förståelse för de risker som finns ombord
+- Orientering kring hur man arbetar med arbetsmiljö ombord
+
+#+ATTR_REVEAL: :frag (appear)
+Inlämningsuppgift 1: Deadline Torsdag 10/9
+** Nästa föreläsning
+- Riskanalys
+- Skyddsombud

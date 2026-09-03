@@ -1,0 +1,251 @@
+#+TITLE: Lektion 4 - Systematiskt arbetsmiljöarbete och riskbedömningar
+#+SUBTITLE: Sjöfart och Miljö
+#+AUTHOR:
+#+DATE: [2026-08-20 torsdag 00:00]
+#+identifier: 20260820T000000
+#+modified: [2026-08-20 tor 13:41]
+#+EXPORT_FILE_NAME: ../20260820T000000--lektion-2-systematiskt-arbetsmiljöarbete-och-riskbedömningar.html
+#+INCLUDE: "../config/config.org"
+
+#+REVEAL_TITLE_SLIDE:
+
+* Lektion 4 - SAM och riskbedömningar
+** Repetition
+Lektion 3 handlade om ...
+** Riskförståelse
+#+BEGIN_NOTES
+- ? Förstår vi risk på samma sätt?
+- Kognitiva faktorer: Vår egen mentala förmåga att uppfatta och processa risk - intelligens - kompetens - fördomar - tillgänglighetsheurestik; mental genväg där man förlitar sig på exempel man känner till sen innan - man bedömer det man minns som viktigt, jämför med om man inte minns.
+- Emotionella faktorer: rädsla, förväntan, spänning påverkar. Rädsla leder till motvilja, positiva känslor till högre risktagande
+- Kultur: om från en kultur som värdesätter tradition och stabilitet - ofta lägre acceptans för risker. kultur där innvation uppmuntras ofta tvärtom.
+- Socialt: vi har överlag en tendens att vilja passa in och tycka likadant som de omkring oss
+- ? skiljer det mellan kön?
+#+END_NOTES
+
+#+REVEAL_HTML: <svg class="risk-diagram"
+#+REVEAL_HTML:      viewBox="0 0 800 500"
+#+REVEAL_HTML:      role="img"
+#+REVEAL_HTML:      aria-label="Riskperception och påverkande faktorer">
+#+REVEAL_HTML:   <defs>
+#+REVEAL_HTML:     <marker id="risk-arrow" markerWidth="10" markerHeight="10"
+#+REVEAL_HTML:             refX="8" refY="3" orient="auto">
+#+REVEAL_HTML:       <path d="M0,0 L0,6 L9,3 z" fill="#111"/>
+#+REVEAL_HTML:     </marker>
+#+REVEAL_HTML:   </defs>
+#+REVEAL_HTML:
+#+REVEAL_HTML:   <!-- 1. Central node -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="1">
+#+REVEAL_HTML:     <rect x="275" y="190" width="250" height="60" rx="18"
+#+REVEAL_HTML:           fill="#ffe000" stroke="#111" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="400" y="225" text-anchor="middle" font-size="26">
+#+REVEAL_HTML:       Riskperception
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+#+REVEAL_HTML:
+#+REVEAL_HTML:   <!-- 2. Kognitiva faktorer + arrow -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="2">
+#+REVEAL_HTML:     <ellipse cx="140" cy="90" rx="110" ry="50"
+#+REVEAL_HTML:              fill="#c77bb5" stroke="#111" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="140" y="84" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       Kognitiva
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="140" y="108" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       faktorer
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <line x1="210" y1="130" x2="280" y2="180"
+#+REVEAL_HTML:           stroke="#111" stroke-width="5"
+#+REVEAL_HTML:           marker-end="url(#risk-arrow)"/>
+#+REVEAL_HTML:   </g>
+#+REVEAL_HTML:
+#+REVEAL_HTML:   <!-- 3. Emotionella faktorer + arrow -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="3">
+#+REVEAL_HTML:     <ellipse cx="660" cy="90" rx="110" ry="50"
+#+REVEAL_HTML:              fill="#c77bb5" stroke="#111" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="660" y="84" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       Emotionella
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="660" y="108" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       faktorer
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <line x1="590" y1="130" x2="510" y2="180"
+#+REVEAL_HTML:           stroke="#111" stroke-width="5"
+#+REVEAL_HTML:           marker-end="url(#risk-arrow)"/>
+#+REVEAL_HTML:   </g>
+#+REVEAL_HTML:
+#+REVEAL_HTML:   <!-- 4. Kultur och social dynamik + arrow -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="4">
+#+REVEAL_HTML:     <ellipse cx="400" cy="420" rx="110" ry="50"
+#+REVEAL_HTML:              fill="#c77bb5" stroke="#111" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="400" y="414" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       Kultur och
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="400" y="438" text-anchor="middle" font-size="20">
+#+REVEAL_HTML:       social dynamik
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <line x1="400" y1="370" x2="400" y2="260"
+#+REVEAL_HTML:           stroke="#111" stroke-width="5"
+#+REVEAL_HTML:           marker-end="url(#risk-arrow)"/>
+#+REVEAL_HTML:   </g>
+#+REVEAL_HTML: </svg>
+** PDCA
+[[/home/kim/sync/onedrive/01.projekt/ht26-sjöfart-och-miljö/presentationer/img/pdca-2.png]]
+** Permit to Work System
+#+REVEAL_HTML: <svg class="ptw-diagram"
+#+REVEAL_HTML:      viewBox="0 0 1000 650"
+#+REVEAL_HTML:      role="img"
+#+REVEAL_HTML:      aria-label="Permit to Work System">
+
+#+REVEAL_HTML:   <!-- Main system -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="1">
+#+REVEAL_HTML:     <rect x="50" y="30" width="900" height="110" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="500" y="98" text-anchor="middle"
+#+REVEAL_HTML:           font-size="34" font-family="Arial">
+#+REVEAL_HTML:       Permit to Work System
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- Row 1 -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="2">
+#+REVEAL_HTML:     <rect x="50" y="170" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="190" y="240" text-anchor="middle"
+#+REVEAL_HTML:           font-size="30" font-family="Arial">
+#+REVEAL_HTML:       Work Permit
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="3">
+#+REVEAL_HTML:     <rect x="360" y="170" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="500" y="220" text-anchor="middle"
+#+REVEAL_HTML:           font-size="28" font-family="Arial">
+#+REVEAL_HTML:       Risk Assessment
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="500" y="260" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       (TRA, SJA, RA)
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="4">
+#+REVEAL_HTML:     <rect x="670" y="170" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="810" y="240" text-anchor="middle"
+#+REVEAL_HTML:           font-size="30" font-family="Arial">
+#+REVEAL_HTML:       Checklists
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- Row 2 -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="5">
+#+REVEAL_HTML:     <rect x="50" y="330" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="190" y="380" text-anchor="middle"
+#+REVEAL_HTML:           font-size="27" font-family="Arial">
+#+REVEAL_HTML:       Enclosed Space Entry
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="190" y="420" text-anchor="middle"
+#+REVEAL_HTML:           font-size="27" font-family="Arial">
+#+REVEAL_HTML:       Certificate
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="6">
+#+REVEAL_HTML:     <rect x="360" y="330" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="500" y="380" text-anchor="middle"
+#+REVEAL_HTML:           font-size="27" font-family="Arial">
+#+REVEAL_HTML:       Toolbox Talk
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="500" y="420" text-anchor="middle"
+#+REVEAL_HTML:           font-size="24" font-family="Arial">
+#+REVEAL_HTML:       (före-jobb samtal)
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="7">
+#+REVEAL_HTML:     <rect x="670" y="330" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="810" y="370" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       Rutiner för
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="810" y="405" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       administration, träning
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="810" y="440" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       och auditering
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML: </svg>
+* Lektion 4 - SAM och riskbedömningar
+** Gruppövning
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+Fem minuter: Diskutera eventuella erfarenheter av:
+- Skyddsombud
+- Skyddskomitté
+** Förankring i författning
+Arbetsmiljölagen 6. Kap. §1-18
+
+Fartygssäkerhetslagen 4. Kap. §10-17
+
+** Skyddsombud och skyddskommitté
+#+REVEAL_HTML: <div class="safety-grid">
+
+#+REVEAL_HTML:   <!-- Left side: all appears first -->
+#+REVEAL_HTML:   <div class="safety-cell left fragment" data-fragment-index="1"
+#+REVEAL_HTML:        style="grid-column: 1; grid-row: 1;">
+#+REVEAL_HTML:     Skyddsombud krävs när….
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell left fragment" data-fragment-index="1"
+#+REVEAL_HTML:        style="grid-column: 1; grid-row: 2;">
+#+REVEAL_HTML:     Skyddsombudet får avbryta ett arbete om…
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell left fragment" data-fragment-index="1"
+#+REVEAL_HTML:        style="grid-column: 1; grid-row: 3;">
+#+REVEAL_HTML:     Skyddskommitté krävs när…
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell left fragment" data-fragment-index="1"
+#+REVEAL_HTML:        style="grid-column: 1; grid-row: 4;">
+#+REVEAL_HTML:     Skyddsombudets skydd till anställning enligt §15 behövs för att…
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell left fragment" data-fragment-index="1"
+#+REVEAL_HTML:        style="grid-column: 1; grid-row: 5;">
+#+REVEAL_HTML:     Vad ska skyddsombud/skyddskommitté göra?
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <!-- Right side: one answer per click -->
+#+REVEAL_HTML:   <div class="safety-cell right fragment" data-fragment-index="2"
+#+REVEAL_HTML:        style="grid-column: 2; grid-row: 1;">
+#+REVEAL_HTML:     Besättningen är fem eller fler eller om det behövs (§11)
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell right fragment" data-fragment-index="3"
+#+REVEAL_HTML:        style="grid-column: 2; grid-row: 2;">
+#+REVEAL_HTML:     Det utgör omedelbar och allvarlig fara för någon ombordvarandes
+#+REVEAL_HTML:     liv eller hälsa och rättelse inte genast kan uppnås… (§12)
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell right fragment" data-fragment-index="4"
+#+REVEAL_HTML:        style="grid-column: 2; grid-row: 3;">
+#+REVEAL_HTML:     Besättningen är 12 eller fler eller om det begärs av de
+#+REVEAL_HTML:     ombordanställda (§14)
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell right bottom-note fragment" data-fragment-index="5"
+#+REVEAL_HTML:        style="grid-column: 2; grid-row: 4;">
+#+REVEAL_HTML:     Hittar vi både i AML och FSL!
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML: </div>

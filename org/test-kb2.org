@@ -1,0 +1,10 @@
+#+TITLE: Plexgear Test with External Plugins
+#+REVEAL_THEME: white
+#+REVEAL_TRANS: none
+#+REVEAL_PLUGINS: (notes markdown)
+
+* Slide 1
+Test with external plugins.
+
+* Slide 2
+Second slide.

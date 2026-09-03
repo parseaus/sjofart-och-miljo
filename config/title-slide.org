@@ -1,0 +1,7 @@
+#+REVEAL_TITLE_SLIDE: <section class="title-slide" data-background-color="#FAE04B">
+#+REVEAL_TITLE_SLIDE:   <div class="title-slide-content">
+#+REVEAL_TITLE_SLIDE:     <h1>%t</h1>
+#+REVEAL_TITLE_SLIDE:     <p class="subtitle">%s</p>
+#+REVEAL_TITLE_SLIDE:     <p class="meta">%a</p>
+#+REVEAL_TITLE_SLIDE:   </div>
+#+REVEAL_TITLE_SLIDE: </section>

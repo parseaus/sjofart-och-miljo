@@ -1,0 +1,269 @@
+/* =========================================================
+   Base font overrides
+   ========================================================= */
+
+:root {
+  --r-main-font: Arial, Helvetica, sans-serif;
+  --r-main-font-size: 40px;
+
+  --r-heading-font: Arial, Helvetica, sans-serif;
+  --r-heading-line-height: 1.2;
+  --r-heading-letter-spacing: normal;
+  --r-heading-text-transform: uppercase;
+  --r-heading-font-weight: normal;
+  --r-heading-margin: 0 0 20px 0;
+
+  --r-heading1-size: 3.77em;
+  --r-heading2-size: 2.11em;
+  --r-heading3-size: 1.55em;
+  --r-heading4-size: 1em;
+}
+
+/* =========================================================
+   General Reveal styling
+   ========================================================= */
+
+.reveal {
+  font-family: var(--r-main-font);
+  font-size: var(--r-main-font-size);
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: var(--r-heading-margin);
+  font-family: var(--r-heading-font);
+  font-weight: var(--r-heading-font-weight);
+  line-height: var(--r-heading-line-height);
+  letter-spacing: var(--r-heading-letter-spacing);
+  text-transform: var(--r-heading-text-transform);
+  text-shadow: none;
+  overflow-wrap: break-word;
+}
+
+.reveal h1 {
+  font-size: var(--r-heading1-size);
+}
+
+.reveal h2 {
+  font-size: var(--r-heading2-size);
+}
+
+.reveal h3 {
+  font-size: 1.2em;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+/* =========================================================
+   Title slide
+   ========================================================= */
+
+.reveal .slides section.title-slide {
+  position: relative;
+  background: #FAE04B;
+  color: #111;
+  text-align: left;
+}
+
+.reveal .slides section.title-slide .title-logo {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 120px;
+  height: auto;
+  max-width: none;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+.reveal .slides section.title-slide .title-slide-content {
+  position: relative;
+  left: 20px;
+  right: 48px;
+  bottom: 48px;
+}
+
+/* =========================================================
+   Utility slides
+   ========================================================= */
+
+.reveal .slides section.extra-padding {
+  padding: 20px !important;
+}
+
+.reveal .slides section.uppgift {
+  background: #fffff2;
+  padding: 20px !important;
+  text-align: left;
+}
+
+.reveal .slides section.uppgift li {
+  margin-bottom: 1.5em !important;
+}
+
+.reveal .slides section.uppgift-2 {
+  background: #fffff2;
+  text-align: left;
+}
+
+/* =========================================================
+   Centered image stacks
+   ========================================================= */
+
+.reveal .slides section.center-stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reveal .slides section.center-stack .r-stack img {
+  margin: 0;
+}
+
+/* =========================================================
+   Case text slides
+   ========================================================= */
+
+.reveal .slides section.case-full-text {
+  text-align: left;
+}
+
+.reveal .slides section.case-full-text h2 {
+  margin-bottom: 0.25em;
+}
+
+.reveal .slides section.case-full-text .case-text {
+  max-width: 80%;
+  max-height: 74vh;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.43em;
+  line-height: 1.16;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.reveal .slides section.case-full-text .case-text p {
+  margin: 0 0 0.55em;
+}
+
+.reveal .slides section.case-full-text .case-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* =========================================================
+   SVG diagrams
+   ========================================================= */
+
+.reveal svg.isolation-diagram {
+  display: block;
+  width: 850px;
+  max-width: 82vw;
+  max-height: 65vh;
+  height: auto;
+  margin: 0 auto;
+}
+
+.reveal .slides section .maritime-law-diagram,
+.reveal .slides section .reason-model,
+.reveal .slides section .swiss-cheese-model {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 78vh;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+/* =========================================================
+   Law table with fragment row separators
+   ========================================================= */
+
+.reveal .laws-table table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.reveal .laws-table td {
+  padding: 0.35em 0.45em;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  border-bottom: 1px solid transparent;
+}
+
+.reveal .laws-table td.fragment.visible {
+  border-bottom-color: rgba(238, 232, 213, 0.75);
+}
+
+/* =========================================================
+   Skyddsombud / skyddskommitté slide
+   ========================================================= */
+
+.reveal .safety-representatives {
+  width: 100%;
+  height: 100%;
+  padding: 0.25em 0.4em;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.reveal .safety-representatives h2 {
+  margin: 0 0 0.05em;
+  font-size: 1.55em;
+  color: #111;
+  text-transform: none;
+}
+
+.reveal .safety-representatives .subtitle {
+  margin: 0 0 0.85em;
+  font-size: 0.62em;
+  color: #111;
+}
+
+/*
+  One shared grid means each answer stays vertically aligned
+  with the relevant question in the left-hand column.
+*/
+.reveal .safety-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+
+  /* More room below the first pair, and between all rows. */
+  grid-template-rows: 2.0em 3.4em 2.5em 2.5em 2em;
+
+  column-gap: 7%;
+  row-gap: 1.05em;
+
+  width: 100%;
+  color: #111;
+  font-size: 0.52em;
+  line-height: 1.18;
+  text-align: left;
+  align-items: start;
+}
+
+.reveal .safety-grid .safety-cell {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  text-align: left;
+}
+
+.reveal .safety-grid .bottom-note {
+  align-self: end;
+}
+/* Hide titles on full-bg slides */
+section.full-bg-slide > h1,
+section.full-bg-slide > h2,
+section.full-bg-slide > h3 {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+}

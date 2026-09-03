@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Generated on 2026-08-27 tor 09:15 -->
+<meta charset="utf-8"/>
+<title>Plexgear Test with External Plugins</title>
+<meta name="author" content="Simeon Levander"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///home/kim/.config/emacs/.local/straight/build-30.2/revealjs/dist/reveal.css"/>
+
+<link rel="stylesheet" href="file:///home/kim/.config/emacs/.local/straight/build-30.2/revealjs/dist/theme/white.css" id="theme"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1 class="title">Plexgear Test with External Plugins</h1><h2 class="author">Simeon Levander</h2><p class="date">Created: 2026-08-27 tor 09:15</p>
+</section>
+<section id="table-of-contents-section">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#/slide-1">1. Slide 1</a></li>
+<li><a href="#/slide-2">2. Slide 2</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section>
+<section id="slide-1">
+<h2 id="1"><span class="section-number-2">1.</span> Slide 1</h2>
+<p>
+Test with external plugins.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-2">
+<h2 id="2"><span class="section-number-2">2.</span> Slide 2</h2>
+<p>
+Second slide.
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="file:///home/kim/.config/emacs/.local/straight/build-30.2/revealjs/dist/reveal.js"></script>
+<script src="file:///home/kim/.config/emacs/.local/straight/build-30.2/revealjs/dist/plugin/notes.js"></script>
+<script src="file:///home/kim/.config/emacs/.local/straight/build-30.2/revealjs/dist/plugin/markdown.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+
+transition: 'none',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x and later
+plugins: [ RevealNotes, RevealMarkdown ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+
+  // Plexgear key remap
+  Reveal.configure({
+    keyboard: {
+      37: 'prev',  // Left
+      38: 'prev',  // Up
+      39: 'next',  // Right
+      40: 'next'   // Down
+    }
+  });
+</script>
+</body>
+</html>

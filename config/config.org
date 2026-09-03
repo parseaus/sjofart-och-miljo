@@ -1,0 +1,25 @@
+# -*- eval: (visual-line-mode) -*-
+
+# Neither generate table of contents nor section numbers
+#+OPTIONS: toc:nil num:nil
+
+# Transition styles: none/fade/slide/convex/concave/zoom/cube
+#+REVEAL_TRANS: none
+
+# Visual; themes etc.
+#+REVEAL_THEME: white
+#+REVEAL_EXTRA_CSS: ./css/reveal-overrides.css
+#+REVEAL_HLEVEL: 3
+
+#+OPTIONS: toc:nil num:nil reveal_slide_number:nil reveal_progress:nil reveal_hash:t reveal_overview:t
+
+#+REVEAL_TRANS: none
+#+REVEAL_INIT_OPTIONS: controlsTutorial:false, touch:true
+
+# Location of reveal.js
+# #+REVEAL_ROOT: ./reveal.js
+
+# Plugins
+#+REVEAL_PLUGINS: (notes markdown)
+
+# Export

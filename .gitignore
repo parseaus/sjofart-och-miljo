@@ -1,0 +1,13 @@
+
+                                     # Large local video file: keep locally, do not commit or publish through GitHub Pages
+                                     media/interceptor.mp4
+                                     EOF
+
+                                     git rm --cached -- \
+                                           "img/v. 35 25 aug-25 Miljö regelverk och säkerhet mötesvideo 1276211043.mp4" \
+                                           media/interceptor.mp4
+
+                                     git add .gitignore
+                                     git commit --amend --no-edit
+fish: Expected a string, but found a redirection
+cat >> .gitignore <<'EOF'
