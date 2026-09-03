@@ -1,12 +1,11 @@
-#+TITLE: Lektion 3: faror i arbetsmiljön
+#+TITLE: Lektion 3: Faror i arbetsmiljön
 #+SUBTITLE: Sjöfart och Miljö
 #+AUTHOR:
 #+DATE: [2026-08-11 tisdag 00:00]
 #+identifier: 20260811T000000
-#+modified: [2026-09-02 ons 10:53]
+#+modified: [2026-09-03 tor 20:15]
 #+EXPORT_FILE_NAME: ../20260811T000000--lektion-3-faror-i-arbetsmiljön.html
 #+INCLUDE: "../config/config.org"
-
 #+REVEAL_TITLE_SLIDE:
 
 * Lektion 3: Faror i arbetsmiljön
@@ -268,9 +267,9 @@ The chief officer then stepped to his left onto the stringer. At the same time, 
 - ? Vad kunde man gjort för att förebygga dödsfallet?
 #+END_NOTES
 ** PDCA
-[[/home/kim/sync/onedrive/01.projekt/ht26-sjöfart-och-miljö/presentationer/img/pdca-2.png]]
+[[./img/pdca-2.png]]
 ** Åtgärdstrappan
-[[/home/kim/sync/onedrive/01.projekt/ht26-sjöfart-och-miljö/presentationer/img/åtgärdstrappan.png]]
+[[./img/åtgärdstrappan.png]]
 ** Permit to Work System
 #+REVEAL_HTML: <svg class="ptw-diagram"
 #+REVEAL_HTML:      viewBox="0 0 1000 650"
