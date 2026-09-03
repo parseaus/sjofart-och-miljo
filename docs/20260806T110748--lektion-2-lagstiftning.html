@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-09-03 tor 12:56 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lektion 2 - Lagstiftning</title>
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Lektion 2 - Lagstiftning
+<br />
+<span class="subtitle">Sjöfart och Miljö</span>
+</h1>
+<div id="outline-container-org24f59ae" class="outline-2">
+<h2 id="org24f59ae">Lektion 2: Reglering av arbetsmiljön</h2>
+<div class="outline-text-2" id="text-org24f59ae">
+</div>
+<div id="outline-container-orgeee407f" class="outline-4">
+<h4 id="orgeee407f">Målet för dagen</h4>
+<div class="outline-text-4" id="text-orgeee407f">
+<ul class="org-ul">
+<li>Orientering kring hur lagar, konventioner och regler hänger ihop</li>
+<li>Vad som behövs för att lösa inlämningsuppgift 1</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org84956d1" class="outline-4">
+<h4 id="org84956d1">Repetition från högstadiet</h4>
+<div class="outline-text-4" id="text-org84956d1">
+<p>
+Vem beslutar om&#x2026;.
+</p>
+<ul class="org-ul">
+<li>Lagar</li>
+<li>Förordningar</li>
+<li>Föreskrifter</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3525c6f" class="outline-4">
+<h4 id="org3525c6f">Lag</h4>
+<div class="outline-text-4" id="text-org3525c6f">
+<p>
+Beslutas av Riksdagen. Direkt straffbelagda.
+</p>
+<ul class="org-ul">
+<li>Sjölagen</li>
+<li>Arbetsmiljölagen</li>
+<li>Sjömanslagen</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org14fa2bf" class="outline-4">
+<h4 id="org14fa2bf">Förordning</h4>
+<div class="outline-text-4" id="text-org14fa2bf">
+<p>
+Beslutas av Regeringen.
+</p>
+<ul class="org-ul">
+<li>Fartygssäkerhetsförordningen</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd2b656d" class="outline-4">
+<h4 id="orgd2b656d">Föreskrift</h4>
+<div class="outline-text-4" id="text-orgd2b656d">
+<p>
+Beslutas av myndighet.
+</p>
+<p>
+Detaljregler.
+</p>
+<ul class="org-ul">
+<li>TSFS (Transportstyrelsens föreskrifter)</li>
+<li>AFS (Arbetsmiljöverkets föreskrifter)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9cb1b7f" class="outline-4">
+<h4 id="org9cb1b7f">Konventioner</h4>
+<div class="outline-text-4" id="text-org9cb1b7f">
+<p>
+Mellanstatligt avtal
+</p>
+
+<ul class="org-ul">
+<li>COLREGS</li>
+<li>SOLAS</li>
+<li>UNCLOS - LOSC</li>
+<li>MARPOL</li>
+</ul>
+<div class="NOTES" id="orgf20d5a1">
+<ul class="org-ul">
+<li>Mellanstatliga avtal: för våran del främst via FN - IMO men även ILO</li>
+<li>IMO: International Maritime Organisation</li>
+<li>ILO: International Labour Organisation</li>
+<li>UNCLOS: Definierar bland annat territorialgränser och vilket ansvar flaggstaten har. Article 94: Duties of the flag state</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org5e41acb" class="outline-4">
+<h4 id="org5e41acb">Regelutveckling</h4>
+<div class="outline-text-4" id="text-org5e41acb">
+</div>
+</div>
+<div id="outline-container-org4bc9bde" class="outline-4">
+<h4 id="org4bc9bde">Titanic (1912)</h4>
+<div class="outline-text-4" id="text-org4bc9bde">
+<ul class="org-ul">
+<li>Initierade SOLAS</li>
+<li>Första version 1914</li>
+<li>1974 - ratificerades 1980</li>
+</ul>
+
+<div class="NOTES" id="org30648c8">
+<ul class="org-ul">
+<li>Startskottet för SOLAS</li>
+<li>Krav på antalet livbåtar, livräddningsutrustning och procedurer samt radiovakter.</li>
+<li>Kom aldrig i kraft pga krig som utbröt kort efter och bara ett fåtal länder signade</li>
+<li>Har utvecklats över tid: 1929 (i kraft 1933), 1942 (i kraft 1952)</li>
+<li>Först med IMOs grundande blev det fart och 1960 (i kraft 1965)</li>
+<li>Efter 60-talet bröt många kolonialnationer sig fria, nya maritima nationer skapades</li>
+<li>1974 var den första moderna versionen som bland annat förenklade hur regelverk förändrades (implementering om inte 50% av världens BRT voterade nej). I kraft 1980.</li>
+<li>Täcker idag 98% av fartyg world wide. Bolivia, Libanon och Sri Lanka har inte signat och behöver således inte följa.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgc3ebf09" class="outline-4">
+<h4 id="orgc3ebf09">Torrey Canyon (1967)</h4>
+<div class="outline-text-4" id="text-orgc3ebf09">
+<ul class="org-ul">
+<li>Initierade MARPOL</li>
+<li>Föregicks av OILPOL</li>
+<li>Signades 1974 - kom i kraft 1983</li>
+</ul>
+
+<div class="NOTES" id="org5db9ec2">
+
+</div>
+</div>
+</div>
+<div id="outline-container-org845a328" class="outline-4">
+<h4 id="org845a328">Det tar tid</h4>
+<div class="outline-text-4" id="text-org845a328">
+<ul class="org-ul">
+<li>SOLAS
+<ul class="org-ul">
+<li>1914 → 1980</li>
+</ul></li>
+<li>MARPOL
+<ul class="org-ul">
+<li>1974 → 1983</li>
+</ul></li>
+<li>ISPS
+<ul class="org-ul">
+<li>2002 → 2004</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org093611c" class="outline-4">
+<h4 id="org093611c">Organisation</h4>
+</div>
+<div id="outline-container-org4bfa768" class="outline-4">
+<h4 id="org4bfa768">&nbsp;</h4>
+<div class="outline-text-4" id="text-org4bfa768">
+</div>
+</div>
+<div id="outline-container-orgaae2749" class="outline-4">
+<h4 id="orgaae2749">Fartygskonstruktion</h4>
+<div class="outline-text-4" id="text-orgaae2749">
+
+<div id="orgc2821c3" class="figure">
+<p><img src="img/fartygskonstruktion.svg" alt="fartygskonstruktion.svg" class="org-svg" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org615bc25" class="outline-4">
+<h4 id="org615bc25">EU-förordningar</h4>
+<div class="outline-text-4" id="text-org615bc25">
+<p>
+<i>Förordningar är rättsakter som definieras i artikel 288 i fördraget om Europeiska unionens funktionssätt (EUF-fördraget). De har allmän giltighet, är <b>bindande</b> till alla delar och <b>direkt tillämpliga</b> i EU:s medlemsstater.</i>
+</p>
+</div>
+</div>
+<div id="outline-container-org8d213a8" class="outline-4">
+<h4 id="org8d213a8">Herald of Free Enterprise</h4>
+<div class="outline-text-4" id="text-org8d213a8">
+<div class="NOTES" id="orgbeadc43">
+<ul class="org-ul">
+<li>Olycka utanför Zeebrugge 1983</li>
+<li>Man hade kommit in tidigare på dagen. Aktern in mot kajen, förberedde inför lastning; öppnade bland annat bogporten</li>
+<li>assisterande båsen, som normalt hade ansvar för bogporten - törnade ut efter en stund och tog sig en vila</li>
+<li>man lastar, gör sig klar för avgång. när man gör detta har man ett utrop i PA som innebar att alla skulle till sina förtöjningsplatser</li>
+<li>assisterande båsen fortsätter att sova; alltså ansvarig för att stänga bogporten.</li>
+<li>ingen dubbelkollar att det var stängt - eftersom stående order sa att om inget annat har meddelats ska fartyget anses som sjödugligt och man kan avgå</li>
+<li>befälhavaren avgår alltså - bogporten fortfarande öppen</li>
+<li>hon är nedtrimmad på fören - när man ökar farten utanför vågbrytaren sätter hon sig</li>
+<li>? vad händer när man ökar farten?</li>
+<li>bogvågen blir större - vattnet börjar forsa in - Estonia hade inte hänt än - så ingen separering - innan man fattar vad som sker är bildäck fullt av vatten och 30 grader slagsida - kapsejsar - fyra minuter efter hon passerat vågbrytaren ligger on med babordsidan mot ett grund</li>
+<li>193 människor omkommer - lade sig på ett grund - om inte hade fler dött</li>
+<li>----------&#x2013;&#x2014;</li>
+<li>Blev en rättegång och en utredning</li>
+<li>bemannat ner - rutten till zeebrugge ansågs minder arbetskrävande än den vanliga rutten
+<ul class="org-ul">
+<li>med detta blev ansvarsfördelningen otydlig - fanns en rutin där styrman skulle kolla porten innan avgång - de bägge styrmännen var vana vid att de var tre och ingen ansåg att det var deras jobb</li>
+<li>överstyrman skulle stanna kvar på däck vid avgång, men tyckte sig behövas på bryggan</li>
+</ul></li>
+<li>visade sig att det här hade hänt flera gånger innan - både i egna rederiet och på andra ställen</li>
+<li>tryck från rederiet att korta ner hamntider</li>
+<li>man gissade sig till sitt djupgående</li>
+<li>----------&#x2013;&#x2014;</li>
+<li>Rättegången resulterade i att man lade skulden på befälhavare, överstyrman och stackarn som låg och sov</li>
+<li>? var det deras fel?</li>
+<li>man lade också en del av skulden på rederiet.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org2f2c97e" class="outline-4">
+<h4 id="org2f2c97e">ISM (International Safety Management Code)</h4>
+<div class="outline-text-4" id="text-org2f2c97e">
+<ul class="org-ul">
+<li>Människor, beteende och praksis</li>
+<li>Stöd till befälhavaren</li>
+</ul>
+<div class="NOTES" id="org3a0beef">
+<ul class="org-ul">
+<li>Man hade vid den här tiden sett att olyckor oftare beror på mänskligt felhandlande; human factors; ett slaskuttryck</li>
+<li>Hantera felkällan människor;</li>
+<li>Ville införa en internationell standard för säkert management och för förhindrande av miljöutsläpp</li>
+<li>satte krav på management-nivå, stöd till befälhavaren</li>
+<li>detta blev då ISM-koden</li>
+<li>koder är utöver konventioner</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org0d11305" class="outline-4">
+<h4 id="org0d11305">IMO Codes</h4>
+<div class="outline-text-4" id="text-org0d11305">
+<ul class="org-ul">
+<li>Utöver konventionerna</li>
+<li>Generellt icke bindande</li>
+<li>Eg. ISM-koden, FSS-koden, MASS-koden</li>
+<li>Kan göras bindande</li>
+</ul>
+<div class="NOTES" id="org92e5d6c">
+<ul class="org-ul">
+<li>Detaljregler som generellt är ickebindande</li>
+<li>Många flaggstater implementera i lagstiftning</li>
+<li>Kan också göras bindande genom implementering i konvention</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgc8e3f37" class="outline-4">
+<h4 id="orgc8e3f37">Implementeras som SOLAS Kapitel IX</h4>
+<div class="outline-text-4" id="text-orgc8e3f37">
+<ul class="org-ul">
+<li>I kraft internationellt 1998</li>
+<li>I EU delvis från 1995</li>
+</ul>
+<div class="NOTES" id="org6d71d0b">
+<ul class="org-ul">
+<li>Signades 1993, i kraft 1998; gäller lastfartyg över 500 brutto i internationell trafik samt HSC-fartyg</li>
+<li>I EU 1995; Sverige och Finland drivande och gällde då för ropax-fartyg inom EUs gränser. Sverige var då fortfarande en relativt mäktig sjöfartsnation och hade mycket inflytande.
+<ul class="org-ul">
+<li>? vad hände 1994?</li>
+<li>Estonia</li>
+</ul></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org4826c1f" class="outline-4">
+<h4 id="org4826c1f">ISM i svensk lagstiftning</h4>
+<div class="outline-text-4" id="text-org4826c1f">
+<p>
+EG Förordning 336/2006
+</p>
+<div class="NOTES" id="org7acc885">
+<ul class="org-ul">
+<li>Implementerad genom en eu-förordning</li>
+<li>gör koden direkt tillämplig på fartyg genom EU</li>
+<li>gäller:
+<ul class="org-ul">
+<li>Lastfartyg över 500 brt och paxfartyg i kontrolla av medlemstat; i internationell trafik</li>
+<li>Lastfartyg över 500 brt och paxfartyg i fartområde A &amp; B uteslutande i inrikestrafik, oavsett flagg</li>
+<li>Lastfartyg över 500 brt och paxfartyg i linjetrafik till eller från medlemsstat, oavsett flagg</li>
+<li>ro-pax på inrikes resor</li>
+<li>mobil offshoreinstallation över 500 brt som går i trafik under medlemsstats myndighet</li>
+</ul></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org1862cb7" class="outline-4">
+<h4 id="org1862cb7">⟹ SMS - Safety Management System</h4>
+<div class="outline-text-4" id="text-org1862cb7">
+<ul class="org-ul">
+<li>ansvar</li>
+<li>procedurer</li>
+<li>riskhantering</li>
+<li>rapportering ⟹ lärande</li>
+<li>auditering</li>
+</ul>
+<div class="NOTES" id="org98dd8db">
+<ul class="org-ul">
+<li>i korthet vad ISM går ut på; införande av ett safety management system: SMS.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org9031c1d" class="outline-4">
+<h4 id="org9031c1d">Maritime Labour Convention (MLC)</h4>
+<div class="outline-text-4" id="text-org9031c1d">
+</div>
+<ul class="org-ul">
+<li><a id="orgd6c5cf0"></a>Mat ombord<br />
+<div class="outline-text-5" id="text-orgd6c5cf0">
+</div>
+</li>
+<li><a id="org2403e77"></a>Hytt och boende<br />
+<div class="outline-text-5" id="text-org2403e77">
+</div>
+</li>
+<li><a id="org0a939cd"></a>Sjukvård ombord<br />
+<div class="outline-text-5" id="text-org0a939cd">
+</div>
+</li>
+<li><a id="orgdda4f67"></a>Arbetsvillkor<br />
+<div class="outline-text-5" id="text-orgdda4f67">
+</div>
+</li>
+<li><a id="orgb63a00d"></a>Landpermission<br />
+<div class="outline-text-5" id="text-orgb63a00d">
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgae9f00d" class="outline-4">
+<h4 id="orgae9f00d">MLC i svensk lagstiftning</h4>
+<div class="outline-text-4" id="text-orgae9f00d">
+<p>
+TSFS 2013:68
+</p>
+<div class="NOTES" id="org5461373">
+<ul class="org-ul">
+<li>I bland annat TSFS 2013:68 Transportstyrelsens föreskrifter om bostadsutrymmen ombord på fartyg som omfattas av sjöarbetskonventionen</li>
+<li>när det implementerades menade man att stora delar av konventionen täcktes av andra lagar</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org840a1c0" class="outline-4">
+<h4 id="org840a1c0">&nbsp;</h4>
+<div class="outline-text-4" id="text-org840a1c0">
+<p>
+<b>Introduktion till Regs4Ships</b>
+</p>
+</div>
+</div>
+<div id="outline-container-org4a1e779" class="outline-4">
+<h4 id="org4a1e779"><b>Gruppuppgift</b> - ISM-koden och MLC</h4>
+<div class="outline-text-4" id="text-org4a1e779">
+<ol class="org-ol">
+<li>Hur kan ni sammanfatta de funktionella kraven på ett Safety Management System?</li>
+<li>Får en redare frångå en befälhavares beslut vad gäller säkerhet ombord?</li>
+<li>Vilka huvudsakliga saker ska framgå - gällande hälsa - på ett läkarintyg enligt MLC?</li>
+</ol>
+<div class="NOTES" id="orgdfce017">
+<ol class="org-ol">
+<li>1.4: Every Company should develop, implement and maintain a Safety Management System which</li>
+</ol>
+<p>
+includes the following functional requirements:
+.1 a safety and environmental protection policy;
+.2 instructions and procedures to ensure safe operation of ships and protection of the
+environment in compliance with relevant international and flag State legislation;
+.3 defined levels of authority and lines of communication between, and amongst, shore
+and shipboard personnel;
+.4 procedures for reporting accidents and non-conformities with the provisions of this
+Code;
+.5 procedures to prepare for and respond to emergency situations; and
+.6 procedures for internal audits and management reviews
+</p>
+
+<ol class="org-ol">
+<li>5.2: The Company should ensure that the safety management system operating on board the ship</li>
+</ol>
+<p>
+contains a clear statement emphasizing the Master's authority. The Company should establish in the
+safety management system that the master has the overriding authority and the responsibility to make
+decisions with respect to safety and pollution prevention and to request the Company's assistance as
+may be necessary.
+</p>
+
+<ol class="org-ol">
+<li>1.2.6: Each medical certificate shall state in particular that:</li>
+</ol>
+<p>
+(a) the hearing and sight of the seafarer concerned, and the colour vision in the case of a
+seafarer to be employed in capacities where fitness for the work to be performed is liable
+to be affected by defective colour vision, are all satisfactory; and
+(b) the seafarer concerned is not suffering from any medical condition likely to be
+aggravated by service at sea or to render the seafarer unfit for such service or to endanger
+the health of other persons on board.
+</p>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org9ed7e8f" class="outline-4">
+<h4 id="org9ed7e8f">Svensk Lagstiftning</h4>
+<div class="outline-text-4" id="text-org9ed7e8f">
+<ul class="org-ul">
+<li>Sjölagen</li>
+<li>Fartygssäkerhetslagen</li>
+<li>Sjömanslagen</li>
+<li>Lagen om vilotid för sjömän</li>
+<li>Arbetsmiljölagen</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfadb2ff" class="outline-4">
+<h4 id="orgfadb2ff">Sjölagen (1994:1009)</h4>
+<div class="outline-text-4" id="text-orgfadb2ff">
+<p>
+Befälhavarens ansvar 6 kap. §1 och §14
+</p>
+<div class="NOTES" id="org167a3bf">
+<ul class="org-ul">
+<li>§1: Skyldighet att se till att fartyget är sjövärdigt</li>
+<li>§14: Om skyldighet att rapportera, bland annat vid olyckor</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgdca3164" class="outline-4">
+<h4 id="orgdca3164">Sjömanslagen (1973:282)</h4>
+<div class="outline-text-4" id="text-orgdca3164">
+<ul class="org-ul">
+<li>§9 och 11§ om frånträde av tjänst</li>
+<li>§18-28 om frånskiljande av tjänst samt fartygsnämnd</li>
+<li>§45-48 om fartygsarbete</li>
+</ul>
+<div class="NOTES" id="org2abe4a8">
+<ul class="org-ul">
+<li>rätt att frånträda vid krigsskada eller sjukdom</li>
+<li>om fartyget ej är sjövardigt; ej lastat korrekt, inte bemannat på betryggande sätt etc.</li>
+<li>frånskiljande om oduglig, ej finner sig ombord på rätt tid, svårare tjänsteförseelse, våld, misshandel</li>
+<li>uppträder påverkad, stöld, drar tvist inför utländsk myndighet</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgab0f97d" class="outline-4">
+<h4 id="orgab0f97d">Fartygssäkerhetslagen (2003:364)</h4>
+<div class="outline-text-4" id="text-orgab0f97d">
+<ul class="org-ul">
+<li>4 kap. Om arbetsmiljö</li>
+<li>5 kap. Om tillsyn</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgddf7b2e" class="outline-4">
+<h4 id="orgddf7b2e">Lagen om vilotid för sjömän (1998:958)</h4>
+<div class="outline-text-4" id="text-orgddf7b2e">
+<ul class="org-ul">
+<li>§1-7 om vilotid</li>
+<li>§9-10 om krav på arbetsordning</li>
+</ul>
+<div class="NOTES" id="org7307a17">
+<ul class="org-ul">
+<li>? vad är vilotid? - all tid som inte är arbetstid</li>
+<li>arbetsordning: bfh skyldighet att tillse att det finns en arbetsordning: ska finnas ett schema helt enkelt</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org56f6f1f" class="outline-4">
+<h4 id="org56f6f1f">Var hittar vi då detta</h4>
+</div>
+<div id="outline-container-orgcf87af2" class="outline-4">
+<h4 id="orgcf87af2"><b>Gruppuppgift</b> - Svensk lagstiftning</h4>
+<div class="outline-text-4" id="text-orgcf87af2">
+<ol class="org-ol">
+<li>Kan man ställa krav på kosten ombord utifrån besättningens härkomst? (eg. ris för fillipinare)</li>
+<li>Om en besättningsman är sjuk, får övriga då avvika från krav om minsta vilotid?</li>
+<li><p>
+Får du som befäl använda tvång för att få någon i manskapet att utföra en uppgift?
+</p>
+<div class="NOTES" id="org831bb4a">
+<ol class="org-ol">
+<li>Ja, enligt Fartygssäkerhetslagen 4.5: Den kost som de ombordställda får (&#x2026;) ska vara anpassad till de ombordanställdas olika kulturella och religiösa bakgrunder.</li>
+<li>Ja. Lagen on vilotid för sjömän §6: Tillfälliga avvikelser får göras om nödvändigt för att genomföra en åtgärd som föranleds av att besättningen har minstat under resan.</li>
+<li>Ja, enligt Sjömanslagen §47 (&#x2026;) skyldig att utföra sådant arbete som befälhavaren finner nödvändigt (&#x2026;) gällade säkerhet</li>
+</ol>
+
+</div></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org8491ad4" class="outline-4">
+<h4 id="org8491ad4">Arbetsmiljölagen</h4>
+<div class="outline-text-4" id="text-org8491ad4">
+<ol class="org-ol">
+<li>Gäller Arbetsmiljölagen för ett svenskt fartyg på japanskt vatten?</li>
+<li>Vad innebär 1 Kap. §2?</li>
+<li>Vad är ett skyddsombuds uppgift?</li>
+<li><p>
+Är det tvingande för en besättningsman att delta i arbetsmiljöarbete?
+</p>
+<div class="NOTES" id="org524e858">
+<ol class="org-ol">
+<li>Ja. AML §2: Denna lag gäller varje verksamhet i vilken arbetstagare utför arbete för en arbetsgivares räkning. I fråga om fartygsarbete gäller lagen även när svenska fartyg används till sjöfart utanför Sveriges sjöterritorium.</li>
+<li>Lagen gäller i princip all verksamhet där en arbetstagare utför arbete för en arbetsgivares räkning.  I fråga om fartyg gäller dessutom följande:</li>
+</ol>
+
+<p>
+Transportstyrelsen har i stället för Arbetsmiljöverket tillsyn enligt arbetsmiljölagen.
+</p>
+
+<p>
+Begreppet arbetsgivare omfattar även redaren, även om fartygsarbetet utförs av någon som är anställd av någon annan.
+</p>
+
+<p>
+Med redare likställs den som i redarens ställe har ett avgörande inflytande över fartygets drift.
+</p>
+
+<p>
+Särskilda bestämmelser om befälhavarens skyldigheter finns i fartygssäkerhetslagen.
+</p>
+<ol class="org-ol">
+<li>Kap.6 §4:  Skyddsombud företräder arbetstagarna i arbetsmiljöfrågor och skall verka för en tillfredsställande arbetsmiljö. I detta syfte skall ombudet inom sitt skyddsområde vaka över skyddet mot ohälsa och olycksfall samt över att arbetsgivaren uppfyller kraven i 3 kap. 2 a §. Skyddsombud på fartyg skall vidare vaka över att fartyget har den bemanning som det skall ha enligt beslut eller föreskrifter.</li>
+</ol>
+
+<p>
+Skyddsombud skall delta vid planering av nya eller ändrade lokaler, anordningar, arbetsprocesser, arbetsmetoder och av arbetsorganisation liksom vid planering av användning av ämnen som kan medföra ohälsa eller olycksfall. Skyddsombud skall vidare delta vid upprättande av handlingsplaner enligt 3 kap. 2 a §.
+</p>
+<ol class="org-ol">
+<li>Ja, AML Kap. 3 §4:  Arbetstagaren skall medverka i arbetsmiljöarbetet och delta i genomförandet av de åtgärder som behövs för att åstadkomma en god arbetsmiljö. Han skall följa givna föreskrifter samt använda de skyddsanordningar och iaktta den försiktighet i övrigt som behövs för att förebygga ohälsa och olycksfall.</li>
+</ol>
+
+<p>
+Om arbetstagaren finner att arbetet innebär omedelbar och allvarlig fara för liv eller hälsa, skall han snarast underrätta arbetsgivaren eller skyddsombud. Arbetstagaren är fri från ersättningsskyldighet för skada som uppstår till följd av att han underlåter att utföra arbetet i avvaktan på besked om det skall fortsättas. Lag (1991:677).
+</p>
+
+</div></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge5de55f" class="outline-4">
+<h4 id="orge5de55f">&nbsp;</h4>
+<div class="outline-text-4" id="text-orge5de55f">
+</div>
+</div>
+<div id="outline-container-org06b61c3" class="outline-4">
+<h4 id="org06b61c3">Systematiskt arbetsmiljöarbete - SAM</h4>
+<div class="outline-text-4" id="text-org06b61c3">
+</div>
+</div>
+<div id="outline-container-org672e242" class="outline-4">
+<h4 id="org672e242">Vad tar du med dig från idag?</h4>
+<div class="outline-text-4" id="text-org672e242">
+<ul class="org-ul">
+<li>Orientering kring hur lagar, konventioner och regler hänger ihop</li>
+<li>Vad som behövs för att lösa inlämningsuppgift 1</li>
+</ul>
+<div class="NOTES" id="orgc0dee93">
+<ul class="org-ul">
+<li>? Vad är en konvention, lag, förordning och föreskrift?</li>
+<li>? Vad är ISM-koden för något? Vad är bakgrunden</li>
+<li>? Ge några exempel på svensk lagstiftning som vi nämnt idag.</li>
+<li>? Vad är SAM?</li>
+<li>? Vad handlar TSFS 2019:56 om?</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org79cfac2" class="outline-4">
+<h4 id="org79cfac2">Nästa föreläsning</h4>
+<div class="outline-text-4" id="text-org79cfac2">
+<ul class="org-ul">
+<li>Faror i arbetsmiljön</li>
+<li>Riskhantering</li>
+<li>Läs igenom sammanfattningarna från olycksrapporter</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2026-08-11 tis 11:39</p>
+<p class="date">Created: 2026-09-03 tor 12:56</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

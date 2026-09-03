@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-09-03 tor 12:56 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lektion 3: faror i arbetsmiljön</title>
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Lektion 3: faror i arbetsmiljön
+<br />
+<span class="subtitle">Sjöfart och Miljö</span>
+</h1>
+<div id="outline-container-org0326f5f" class="outline-2">
+<h2 id="org0326f5f">Lektion 3: Faror i arbetsmiljön</h2>
+<div class="outline-text-2" id="text-org0326f5f">
+</div>
+<div id="outline-container-org0233b4d" class="outline-3">
+<h3 id="org0233b4d">Repetition</h3>
+<div class="outline-text-3" id="text-org0233b4d">
+<p>
+Lekion 2 handlade om&#x2026;.
+</p>
+</div>
+</div>
+<div id="outline-container-org992bdbf" class="outline-3">
+<h3 id="org992bdbf">Svensk lagstiftning</h3>
+<div class="outline-text-3" id="text-org992bdbf">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Sjölagen (1994:1009)</td>
+<td class="org-left">Övergripande/Ekonomisk</td>
+<td class="org-left">Befälhavarens ansvar 6 kap. §1 och §14</td>
+</tr>
+
+<tr>
+<td class="org-left">Fartygssäkerhetslagen (2003:364)</td>
+<td class="org-left">Säkerhet</td>
+<td class="org-left">Säkerhetsorganisation (SMS, kap. 3. Arbetsmiljö, 4 kap: AML, ansvar, minderåriga, skyddsombud, 5 kap §1: Tillsyn)</td>
+</tr>
+
+<tr>
+<td class="org-left">Sjömanslagen (1973:282)</td>
+<td class="org-left">Arbetsvillkor, sjömans rättigheter, disciplinärenden</td>
+<td class="org-left">§9 och §11 frånträde, §18–28 franskiljande och fartygsnämnd, §45–48 fartygsarbete</td>
+</tr>
+
+<tr>
+<td class="org-left">Lagen om vilotid för sjömän (1998:958)</td>
+<td class="org-left">Vilotid</td>
+<td class="org-left">§1–7 vilotidskrav, §9–10 krav på arbetsordning</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgbb6b55c" class="outline-3">
+<h3 id="orgbb6b55c">IMO // Internationellt</h3>
+<div class="outline-text-3" id="text-orgbb6b55c">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">ISM-koden (SOLAS Chapter IX)</td>
+<td class="org-left">Herald of Free Enterprise</td>
+<td class="org-left">Ökad säkerhet genom införlivande av Safety Management Systems (ansvar, procedurer, riskhantering, auditering, rapportering/lärande)</td>
+<td class="org-left">EG förordning 336/2006</td>
+</tr>
+
+<tr>
+<td class="org-left">MLC – Maritime Labour Convention (2006)</td>
+<td class="org-left">Sammanslagning av olika tidigare konventioner samt etablera modernare "minsta" krav</td>
+<td class="org-left">Att reglera arbetsvillkor, anställningsvillkor, bostadsutrymmen ombord, mat ombord, sjukvård ombord mm.</td>
+<td class="org-left">TSFS 2013:68</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgab5fea7" class="outline-3">
+<h3 id="orgab5fea7">Föreskrifter</h3>
+</div>
+</div>
+<div id="outline-container-org8bdcc46" class="outline-2">
+<h2 id="org8bdcc46">Lektion 3: Faror i arbetsmiljön</h2>
+<div class="outline-text-2" id="text-org8bdcc46">
+</div>
+<div id="outline-container-org22d29ae" class="outline-3">
+<h3 id="org22d29ae">Gruppövning</h3>
+<div class="outline-text-3" id="text-org22d29ae">
+<p>
+AML. 3 Kap. §2-§2a: Vad innebär dessa två paragrafer i praktiken?
+</p>
+</div>
+</div>
+<div id="outline-container-org5162155" class="outline-3">
+<h3 id="org5162155">Plan - Do - Check - Act</h3>
+<div class="outline-text-3" id="text-org5162155">
+<div class="NOTES" id="org854c19f">
+<ul class="org-ul">
+<li>? Visa på tavlan</li>
+<li>Hjul utan slut - arbetsmiljöarbetet är kontinuerligt</li>
+<li>De aktiviteter som återkommer i arbetsmiljöarbetet</li>
+<li>plan/riskbedömning: Identifiera problem, förbättringsmöjlighet, samla fakta, analysera orsaker, bestäm hur resultatet ska mätas</li>
+<li>Do/åtgärder (genomföra): testa planen, dokumentera</li>
+<li>Check/kontroll: jämför resultatet med målet, analysera data, bedöm om effekten blev den eftersträvda</li>
+<li>undersökning/act/: inför och standardisera den nya arbetsmetoden, blev resultatet inte bra - börja om</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orge9e6ed0" class="outline-3">
+<h3 id="orge9e6ed0">SAM</h3>
+<div class="outline-text-3" id="text-orge9e6ed0">
+
+<div id="orge901f01" class="figure">
+<p><img src="./img/pdca.png" alt="pdca.png" width="60%" />
+</p>
+</div>
+<div class="NOTES" id="org14136b7">
+<ul class="org-ul">
+<li>Arbetsmiljöverkets version.</li>
+<li>Samverkan - direkt i själva arbetet men också organiserat genom skyddombud</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org3dc7872" class="outline-3">
+<h3 id="org3dc7872">Gruppövning</h3>
+<div class="outline-text-3" id="text-org3dc7872">
+<p>
+I par om två: Skriv ner så många faror för människors hälsa ni kan komma på i arbetsmiljön ombord på ett fartyg.
+</p>
+</div>
+</div>
+<div id="outline-container-org81423b7" class="outline-3">
+<h3 id="org81423b7">&nbsp;</h3>
+<div class="outline-text-3" id="text-org81423b7">
+</div>
+</div>
+<div id="outline-container-orge7334a9" class="outline-3">
+<h3 id="orge7334a9">&nbsp;</h3>
+<div class="outline-text-3" id="text-orge7334a9">
+</div>
+</div>
+<div id="outline-container-org9e9b663" class="outline-3">
+<h3 id="org9e9b663">&nbsp;</h3>
+<div class="outline-text-3" id="text-org9e9b663">
+<div class="NOTES" id="org64563b8">
+<ul class="org-ul">
+<li>Vevstaksbrott</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgde3fdae" class="outline-3">
+<h3 id="orgde3fdae">&nbsp;</h3>
+<div class="outline-text-3" id="text-orgde3fdae">
+</div>
+</div>
+<div id="outline-container-orgf18090f" class="outline-3">
+<h3 id="orgf18090f">Risk</h3>
+</div>
+<div id="outline-container-org3505a28" class="outline-3">
+<h3 id="org3505a28">Riskförståelse</h3>
+<div class="outline-text-3" id="text-org3505a28">
+<div class="NOTES" id="org5606c42">
+<ul class="org-ul">
+<li>? Förstår vi risk på samma sätt?</li>
+<li>Kognitiva faktorer: Vår egen mentala förmåga att uppfatta och processa risk - intelligens - kompetens - fördomar - tillgänglighetsheurestik; mental genväg där man förlitar sig på exempel man känner till sen innan - man bedömer det man minns som viktigt, jämför med om man inte minns.</li>
+<li>Emotionella faktorer: rädsla, förväntan, spänning påverkar. Rädsla leder till motvilja, positiva känslor till högre risktagande</li>
+<li>Kultur: om från en kultur som värdesätter tradition och stabilitet - ofta lägre acceptans för risker. kultur där innvation uppmuntras ofta tvärtom.</li>
+<li>Socialt: vi har överlag en tendens att vilja passa in och tycka likadant som de omkring oss</li>
+<li>? skiljer det mellan kön?</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-org8b40f55" class="outline-3">
+<h3 id="org8b40f55">Bild 1 - no safety harness</h3>
+<div class="outline-text-3" id="text-org8b40f55">
+</div>
+</div>
+<div id="outline-container-orge0834fd" class="outline-3">
+<h3 id="orge0834fd">Bild 2 - barrels</h3>
+<div class="outline-text-3" id="text-orge0834fd">
+</div>
+</div>
+<div id="outline-container-org62d0e09" class="outline-3">
+<h3 id="org62d0e09">Bild 3 - sit on pallet</h3>
+<div class="outline-text-3" id="text-org62d0e09">
+</div>
+</div>
+<div id="outline-container-org2254c0d" class="outline-3">
+<h3 id="org2254c0d">Bild 4 - on anchor</h3>
+<div class="outline-text-3" id="text-org2254c0d">
+</div>
+</div>
+<div id="outline-container-org1ede2bd" class="outline-3">
+<h3 id="org1ede2bd">Bild 5 - saxlift</h3>
+<div class="outline-text-3" id="text-org1ede2bd">
+</div>
+</div>
+<div id="outline-container-org61e2b7e" class="outline-3">
+<h3 id="org61e2b7e">Bild 6 - slipmaskin</h3>
+<div class="outline-text-3" id="text-org61e2b7e">
+</div>
+</div>
+<div id="outline-container-org8ca77a6" class="outline-3">
+<h3 id="org8ca77a6">Bild 7 - målning</h3>
+<div class="outline-text-3" id="text-org8ca77a6">
+</div>
+</div>
+<div id="outline-container-org301742a" class="outline-3">
+<h3 id="org301742a">Bild 8 - vapen</h3>
+<div class="outline-text-3" id="text-org301742a">
+</div>
+</div>
+<div id="outline-container-org119b9fe" class="outline-3">
+<h3 id="org119b9fe">PDSA</h3>
+<div class="outline-text-3" id="text-org119b9fe">
+</div>
+</div>
+<div id="outline-container-orgb431161" class="outline-3">
+<h3 id="orgb431161">&nbsp;</h3>
+<div class="outline-text-3" id="text-orgb431161">
+<p>
+<b>Very serious casualty: falling from height during inspection of water ballast tank</b>
+</p>
+
+<p>
+<b>What happened?</b>
+</p>
+
+<p>
+On board a 37,000 gt containership whilst at sea, the chief officer entered into a water ballast tank for a routine inspection. Before the entry, he measured the tank's atmosphere. He descended through the open manhole into the darkened tank, holding the lit torch in one hand. The bosun stood at the tank access monitoring the chief officer's progress and an AB stood behind the bosun. The chief officer stopped at the fifth or sixth rung of the vertical ladder, almost level with a transverse stringer through which the ladder continued. He took another reading from the gas analyser and informed the bosun that the oxygen level was between 20.8 per cent and 20.9 per cent.
+</p>
+
+<p>
+The chief officer then stepped to his left onto the stringer. At the same time, the bosun stepped back from the access and started talking to the AB. A few seconds later, there was a loud crashing sound in the tank. The bosun illuminated the tank with his torch and saw the chief officer lying at the bottom of the tank. The officer was recovered and air-lifted to the hospital for medical treatment, but was declared dead before arrival. As the chief officer stepped onto the stringer moments before he fell, it is almost certain that he fell off its un-guarded edge, possibly as a result of slipping on the sludgy coating while holding his torch in one hand and the gas analyser in the other.
+</p>
+
+<div class="NOTES" id="org6963883">
+<ul class="org-ul">
+<li><a href="https://wwwcdn.imo.org/localresources/en/OurWork/IIIS/Documents/Lessons%20learned%20English/j%20FSI%2020.pdf">IMO - Lessons learned 2025</a></li>
+<li>Summering av olyckan; från IMO</li>
+<li>? Varför hände det här?</li>
+<li>? Vad kunde man gjort för att förebygga dödsfallet?</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div id="outline-container-orgf9fe9d0" class="outline-3">
+<h3 id="orgf9fe9d0">PDCA</h3>
+<div class="outline-text-3" id="text-orgf9fe9d0">
+
+<div id="org5e7e2d4" class="figure">
+<p><img src="file:///home/kim/sync/onedrive/01.projekt/ht26-sjöfart-och-miljö/presentationer/img/pdca-2.png" alt="pdca-2.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org86def0a" class="outline-3">
+<h3 id="org86def0a">Åtgärdstrappan</h3>
+<div class="outline-text-3" id="text-org86def0a">
+
+<div id="orgca61762" class="figure">
+<p><img src="file:///home/kim/sync/onedrive/01.projekt/ht26-sjöfart-och-miljö/presentationer/img/åtgärdstrappan.png" alt="åtgärdstrappan.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbea15e9" class="outline-3">
+<h3 id="orgbea15e9">Permit to Work System</h3>
+<div class="outline-text-3" id="text-orgbea15e9">
+</div>
+</div>
+<div id="outline-container-org4109e6d" class="outline-3">
+<h3 id="org4109e6d">Permit to Work</h3>
+<div class="outline-text-3" id="text-org4109e6d">
+<p>
+<i>"A permit to work system is a formal written system that controls certain types of work&#x2026;"</i>
+</p>
+</div>
+</div>
+<div id="outline-container-org350d156" class="outline-3">
+<h3 id="org350d156">Ett permit to work"-system syftar till att:</h3>
+<div class="outline-text-3" id="text-org350d156">
+<ul class="org-ul">
+<li>Korrekt godkännande av arbetsaktiviteter,</li>
+<li>tydliggöra för de som utför uppgiften vilka faror som finns relaterat till uppgiften,</li>
+<li>definiera skyddsåtgärder,</li>
+<li>försäkra sig om att ansvarig personal vet om aktiviteten,</li>
+<li>tillse kontinuerlig kontroll och uppföljing,</li>
+<li>hantera potentiella konflikter (SIMPOS)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org54036b8" class="outline-3">
+<h3 id="org54036b8">Permit to work</h3>
+</div>
+<div id="outline-container-orgb6f9d74" class="outline-3">
+<h3 id="orgb6f9d74">&nbsp;</h3>
+<div class="outline-text-3" id="text-orgb6f9d74">
+<p>
+<b>Very serious casualty: falling from height during inspection of water ballast tank</b>
+</p>
+
+<p>
+<b>Why did it happen?</b>
+</p>
+
+
+<p>
+The precautions taken by the Chief Officer before entry into the tank fell significantly short of the requirements of the vessel's procedures, the expectations of the vessel's managers, and industry best practice.
+</p>
+
+<p>
+The chief officer did not follow the permit to work system on board for entering into enclosed spaces.
+</p>
+
+<p>
+The danger of falling during tank inspections had not been recognized or considered as no permits to work aloft were issued for tank entries on board.
+</p>
+
+<p>
+<b>What can we learn?</b>
+</p>
+<ul class="org-ul">
+<li>It is important to follow the permit to work system for entering into enclosed spaces on board and that if there is a danger of falling from height, the precautions for working aloft must also be considered.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org57b4fb2" class="outline-3">
+<h3 id="org57b4fb2">Isolering av farligt ämne eller medium</h3>
+<div class="outline-text-3" id="text-org57b4fb2">
+</div>
+</div>
+<div id="outline-container-org2a700c6" class="outline-3">
+<h3 id="org2a700c6">Gruppövning</h3>
+<div class="outline-text-3" id="text-org2a700c6">
+<p>
+Ni ska utföra ett av följande:
+</p>
+<ul class="org-ul">
+<li>Arbete i ballasttank eller,</li>
+<li>2000-timmarsservice på en huvudmaskin.</li>
+</ul>
+
+<p>
+Hur kan ni i praktiken lösa en isolation?
+</p>
+</div>
+</div>
+<div id="outline-container-org16af1f7" class="outline-3">
+<h3 id="org16af1f7">Maersk Interceptor</h3>
+<div class="outline-text-3" id="text-org16af1f7">
+</div>
+</div>
+<div id="outline-container-orgc7f4ae6" class="outline-3">
+<h3 id="orgc7f4ae6">Avslut vecka 1</h3>
+<div class="outline-text-3" id="text-orgc7f4ae6">
+<p>
+<b>Mål med veckan</b>
+</p>
+
+<ul class="org-ul">
+<li>Få en grundläggande förståelse för regler som styr arbetsmiljön</li>
+<li>Få en grundläggande förståelse för de risker som finns ombord</li>
+<li>Orientering kring hur man arbetar med arbetsmiljö ombord</li>
+</ul>
+
+<p>
+Inlämningsuppgift 1: Deadline Torsdag 10/9
+</p>
+</div>
+</div>
+<div id="outline-container-org77ec7e3" class="outline-3">
+<h3 id="org77ec7e3">Nästa föreläsning</h3>
+<div class="outline-text-3" id="text-org77ec7e3">
+<ul class="org-ul">
+<li>Riskanalys</li>
+<li>Skyddsombud</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2026-08-11 tis 00:00</p>
+<p class="date">Created: 2026-09-03 tor 12:56</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
