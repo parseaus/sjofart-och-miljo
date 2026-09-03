@@ -4,30 +4,50 @@ set -euo pipefail
 repo_root="$(cd "$(dirname "$0")" && pwd)"
 docs_dir="$repo_root/docs"
 
-# Base template
+# Base template with your heading
 cat > "$docs_dir/index.html" << 'EOF'
 <!DOCTYPE html>
 <html lang="sv">
 <head>
 <meta charset="utf-8"/>
-<title>Presentationer</title>
+<title>Sjöfart och Miljö HT26 – Presentationer</title>
 <style>
   body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    max-width: 60rem;
-    margin: 2rem auto;
+    max-width: 55rem;
+    margin: 2.5rem auto;
     padding: 0 1rem;
     line-height: 1.5;
+    color: #222;
   }
-  h1 { margin-bottom: 1.5rem; }
-  ul { list-style: disc; padding-left: 1.5rem; }
-  li { margin-bottom: 0.5rem; }
-  a { text-decoration: none; color: #0066cc; }
-  a:hover { text-decoration: underline; }
+  h1 {
+    margin-bottom: 1.25rem;
+    font-size: 1.8rem;
+  }
+  ul {
+    list-style: disc;
+    padding-left: 1.4rem;
+  }
+  li {
+    margin-bottom: 0.6rem;
+  }
+  a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .meta {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
 </style>
 </head>
 <body>
-<h1>Presentationer</h1>
+<h1>Sjöfart och Miljö HT26 – Presentationer</h1>
+<div class="meta">Klicka på en länk nedan för att öppna presentationen.</div>
 <ul>
 <!-- ITEMS -->
 </ul>

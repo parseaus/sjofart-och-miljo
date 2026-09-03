@@ -3,7 +3,7 @@
 #+AUTHOR:
 #+DATE: [2026-08-11 tisdag 00:00]
 #+identifier: 20260811T000000
-#+modified: [2026-09-03 tor 20:15]
+#+modified: [2026-09-03 tor 21:03]
 #+EXPORT_FILE_NAME: ../20260811T000000--lektion-3-faror-i-arbetsmiljön.html
 #+INCLUDE: "../config/config.org"
 #+REVEAL_TITLE_SLIDE:
@@ -54,8 +54,20 @@ AML. 3 Kap. §2-§2a: Vad innebär dessa två paragrafer i praktiken?
 #+BEGIN_NOTES
 - Arbetsmiljöverkets version.
 - Samverkan - direkt i själva arbetet men också organiserat genom skyddombud
+
+Hjulet visar några av de aktiviteter som återkommer i arbetsmiljöarbetet: undersöka, bedöma och åtgärda risker samt kontrollera åtgärderna.
+
+Arbetet med att hitta och bedöma risker till att åtgärda och kontrollera åtgärderna måste göras kontinuerligt för att se till att åtgärderna har hjälpt och att hantera nya risker. Därför illustreras dessa aktiviteter ofta som ett hjul utan tydligt slut.
+Om något inte kan åtgärdas genast ska du som arbetsgivare skriva in det i en handlingsplan.
 #+END_NOTES
 
+** Modell för fara, risk och säkerhet
+:PROPERTIES:
+:reveal_background: img/ost.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
 ** Gruppövning
 :PROPERTIES:
 :reveal_background: #fffff2
@@ -269,8 +281,27 @@ The chief officer then stepped to his left onto the stringer. At the same time, 
 ** PDCA
 [[./img/pdca-2.png]]
 ** Åtgärdstrappan
+#+BEGIN_NOTES
+Eliminering, alternativ metod/produkt, teknisk lösning, administrativ åtgärd, PPE-
+
+Vad kan administrativ kontroll innebära?
+
+Ex. Moppa golvet med en rengöringsmedel som är frätande i kontakt med ögon
+Eliminering – Ta bort medlet
+Alternativ produkt
+Teknisk lösning – Robotmopp
+Administrativ lösning
+PPE - skyddsglasögon
+#+END_NOTES
 [[./img/åtgärdstrappan.png]]
 ** Permit to Work System
+#+BEGIN_NOTES
+Exempel på Permit to work:
+Work aloft / Over the side
+Hot work permit
+Enclosed space entry permit
+Cold work permit
+#+END_NOTES
 #+REVEAL_HTML: <svg class="ptw-diagram"
 #+REVEAL_HTML:      viewBox="0 0 1000 650"
 #+REVEAL_HTML:      role="img"
@@ -366,6 +397,7 @@ The chief officer then stepped to his left onto the stringer. At the same time, 
 ** Permit to Work
 /"A permit to work system is a formal written system that controls certain types of work..."/
 ** Ett permit to work"-system syftar till att:
+#+ATTR_REVEAL: :frag (appear)
 - Korrekt godkännande av arbetsaktiviteter,
 - tydliggöra för de som utför uppgiften vilka faror som finns relaterat till uppgiften,
 - definiera skyddsåtgärder,
