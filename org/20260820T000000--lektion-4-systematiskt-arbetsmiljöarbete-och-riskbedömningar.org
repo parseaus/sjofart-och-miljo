@@ -3,8 +3,8 @@
 #+AUTHOR:
 #+DATE: [2026-08-20 torsdag 00:00]
 #+identifier: 20260820T000000
-#+modified: [2026-09-07 mån 16:57]
-#+EXPORT_FILE_NAME: ../20260820T000000--lektion-2-systematiskt-arbetsmiljöarbete-och-riskbedömningar.html
+#+modified: [2026-09-07 mån 17:01]
+#+EXPORT_FILE_NAME: ../20260820T000000--lektion-4-systematiskt-arbetsmiljöarbete-och-riskbedömningar.html
 #+INCLUDE: "../config/config.org"
 
 #+REVEAL_TITLE_SLIDE:
