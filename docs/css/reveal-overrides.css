@@ -142,14 +142,14 @@
   max-height: 74vh;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.43em;
-  line-height: 1.16;
+  font-size: 0.52em;       /* was 0.43em → ~10% larger */
+  line-height: 1.35;       /* was 1.16 → more spacing between lines */
   text-align: justify;
   hyphens: auto;
 }
 
 .reveal .slides section.case-full-text .case-text p {
-  margin: 0 0 0.55em;
+  margin: 0 0 0.75em;      /* was 0.55em → more space between paragraphs */
 }
 
 .reveal .slides section.case-full-text .case-text p:last-child {
@@ -266,4 +266,117 @@ section.full-bg-slide > h3 {
   margin: 0 !important;
   padding: 0 !important;
   height: 0 !important;
+}
+/* Comparison table: AFS 2001:1 / ISM-koden */
+.reveal .comparison-table {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.42em;
+  line-height: 1.15;
+}
+
+.reveal .comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.reveal .comparison-table th,
+.reveal .comparison-table td {
+  padding: 0.28em 0.45em;
+  border: 1px solid #ffffff;
+  vertical-align: top;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.reveal .comparison-table th {
+  background: #ffdd00;
+  color: #111111;
+  font-weight: 700;
+}
+
+.reveal .comparison-table td {
+  background: #fff4cc;
+  color: #111111;
+}
+
+.reveal .comparison-table tr:nth-child(even) td {
+  background: #fff8df;
+}
+
+.reveal .comparison-table th:nth-child(1),
+.reveal .comparison-table td:nth-child(1) {
+  width: 22%;
+}
+
+.reveal .comparison-table th:nth-child(2),
+.reveal .comparison-table td:nth-child(2) {
+  width: 44%;
+}
+
+.reveal .comparison-table th:nth-child(3),
+.reveal .comparison-table td:nth-child(3) {
+  width: 34%;
+}
+
+.reveal .comparison-table small {
+  font-size: 0.9em;
+}
+/* Diagram: systematiskt arbetsmiljöarbete */
+.reveal .sam-diagram {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.reveal .sam-diagram svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+}
+
+.reveal .sam-diagram text {
+  dominant-baseline: middle;
+}
+/* =========================================================
+   ISGOTT risk assessment slide
+   ========================================================= */
+
+.reveal .isgott-slide {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.reveal .isgott-slide .isgott-row {
+  display: grid;
+  grid-template-columns: 31% 69%;
+  column-gap: 2%;
+  align-items: start;
+  margin-bottom: 0.9em;
+}
+
+.reveal .isgott-slide .isgott-term,
+.reveal .isgott-slide .isgott-definition {
+  font-size: 0.56em;
+  line-height: 1.18;
+}
+
+.reveal .isgott-slide .isgott-term {
+  font-weight: 400;
+}
+
+.reveal .isgott-slide .isgott-definition {
+  font-weight: 400;
+}
+
+.reveal .isgott-slide .isgott-source {
+  margin-top: 1.1em;
+  margin-right: 2%;
+  text-align: right;
+  font-size: 0.38em;
+  font-style: italic;
 }
