@@ -1,0 +1,100 @@
+#+TITLE: Lektion 5 - PPE
+#+SUBTITLE: Sjöfart och Miljö
+#+AUTHOR:
+#+DATE:<2026-09-08 tis>
+#+identifier:
+#+modified: [2026-09-10 tor 14:09]
+#+EXPORT_FILE_NAME: ../20260908T164700--1SÄ93S-lektion-5-ppe.html
+#+INCLUDE: "../config/config.org"
+
+#+REVEAL_TITLE_SLIDE:
+
+* Lektion 5 - PPE
+** Repetition
+Lektion 4 handlade om ...
+** Skyddsombud och skyddskommitté
+#+REVEAL_HTML: <div class="safety-grid">
+
+#+REVEAL_HTML:   <!-- Left side: all appears first -->
+#+REVEAL_HTML:   <div class="safety-cell left fragment" data-fragment-index="1"
+#+REVEAL_HTML:        style="grid-column: 1; grid-row: 1;">
+#+REVEAL_HTML:     Skyddsombud krävs när….
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell left fragment" data-fragment-index="1"
+#+REVEAL_HTML:        style="grid-column: 1; grid-row: 2;">
+#+REVEAL_HTML:     Skyddsombudet får avbryta ett arbete om…
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell left fragment" data-fragment-index="1"
+#+REVEAL_HTML:        style="grid-column: 1; grid-row: 3;">
+#+REVEAL_HTML:     Skyddskommitté krävs när…
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell left fragment" data-fragment-index="1"
+#+REVEAL_HTML:        style="grid-column: 1; grid-row: 4;">
+#+REVEAL_HTML:     Skyddsombudets skydd till anställning enligt §15 behövs för att…
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell left fragment" data-fragment-index="1"
+#+REVEAL_HTML:        style="grid-column: 1; grid-row: 5;">
+#+REVEAL_HTML:     Vad ska skyddsombud/skyddskommitté göra?
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <!-- Right side: one answer per click -->
+#+REVEAL_HTML:   <div class="safety-cell right fragment" data-fragment-index="2"
+#+REVEAL_HTML:        style="grid-column: 2; grid-row: 1;">
+#+REVEAL_HTML:     Besättningen är fem eller fler eller om det behövs (§11)
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell right fragment" data-fragment-index="3"
+#+REVEAL_HTML:        style="grid-column: 2; grid-row: 2;">
+#+REVEAL_HTML:     Det utgör omedelbar och allvarlig fara för någon ombordvarandes
+#+REVEAL_HTML:     liv eller hälsa och rättelse inte genast kan uppnås… (§12)
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell right fragment" data-fragment-index="4"
+#+REVEAL_HTML:        style="grid-column: 2; grid-row: 3;">
+#+REVEAL_HTML:     Besättningen är 12 eller fler eller om det begärs av de
+#+REVEAL_HTML:     ombordanställda (§14)
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML:   <div class="safety-cell right bottom-note fragment" data-fragment-index="5"
+#+REVEAL_HTML:        style="grid-column: 2; grid-row: 4;">
+#+REVEAL_HTML:     Hittar vi både i AML och FSL!
+#+REVEAL_HTML:   </div>
+
+#+REVEAL_HTML: </div>
+** Riskbedömning
+[[./img/handlingsplan.png]]
+** Riskbedömning - kvantifiering
+[[./img/riskmatris.png]]
+** Riskbedömning
+#+ATTR_REVEAL: :frag (appear)
+- Bäst gjord i grupp där olika perspektiv och erfarenheter får komma till tals...
+- Stöd från rutiner, erfarenheter
+- Reka platsen!!
+- Kritiskt tänkande
+
+* Lektion 5 - PPE
+
+** Bild - Octantis
+:PROPERTIES:
+:reveal_background: img/hangar.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+*** \nbsp
+#+REVEAL_HTML: <section>
+#+REVEAL_HTML:       <img width="450" src="img/octantis-1.jpg">
+#+REVEAL_HTML:       <img width="450" src="img/octantis-2.jpg">
+#+REVEAL_HTML:       <img width="450" src="img/octantis-3.jpg">
+#+REVEAL_HTML: </section>
+
+
+* Lektion 5 - PPE
+
+** Mål
+- Få en grundläggande förståelse för skyddskläders certifiering och märkning
