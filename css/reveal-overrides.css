@@ -142,7 +142,7 @@
   max-height: 74vh;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.52em;       /* was 0.43em → ~10% larger */
+  font-size: 0.43em;       /* was 0.43em → ~10% larger */
   line-height: 1.35;       /* was 1.16 → more spacing between lines */
   text-align: justify;
   hyphens: auto;

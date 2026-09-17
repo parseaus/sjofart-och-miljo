@@ -1,0 +1,289 @@
+#+TITLE: 1SÄ92S - Lektion 8: Slutna utrymmen
+#+filetags:   :ppt:
+#+SUBTITLE: Sjöfart och Miljö
+#+AUTHOR:
+#+DATE:[2026-09-16 onsdag 00:00]
+#+identifier:20260916T000000
+#+modified: [2026-09-17 tor 11:34]
+#+EXPORT_FILE_NAME: ../20260908T164700--1SÄ93S-lektion-8-slutna-utrymmen.html
+#+INCLUDE: "../config/config.org"
+
+#+REVEAL_TITLE_SLIDE:
+
+* Lektion 8: Slutna utrymmen
+
+** Slutna utrymmen
+#+ATTR_REVEAL: :frag (appear)
+Enclosed Spaces
+#+ATTR_REVEAL: :frag (appear)
+Confined Spaces
+** Slutna utrymmen
+#+REVEAL_HTML:       <img height="300" src="img/tank-1.jpg">
+#+ATTR_REVEAL: :frag (appear)
+1. Begränsade öppningar
+2. Otillräcklig ventilation
+3. Ej avsedda för normalt arbete
+** Gruppuppgift
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="gles-lista"
+:END:
+#+REVEAL_HTML: <style>.gles-lista li { margin-bottom: 1.5em !important; }</style>
+
+Lista så många utrymmen som möjligt ombord ett fartyg som skulle kunna falla inom kriteriet för "slutet utrymme".
+
+** Exempel
+#+ATTR_REVEAL: :frag (appear)
+- Ballasttankar
+- Kättingboxar
+- Kofferdammar
+- Lastrum
+- Void spaces
+- Bränsletankar
+- etc....
+
+** Farorna
+#+ATTR_REVEAL: :frag (appear)
+- Syrefattig miljö
+- Farliga gaser; explosiva, giftiga
+- Fallrisk
+- Vätskor
+** Dolda faror
+#+ATTR_REVEAL: :frag (appear)
+- Last som binder eller förbrukar syre
+- Rost
+- Tunga gaser
+  - Propan (2.02)
+  - H2S (1,36)
+  - Nitrogen (1,25)
+- Sediment
+
+** Varför?
+#+ATTR_REVEAL: :frag (appear)
+*** Inspektion
+[[./img/inspektion-tank.jpg]]
+*** Underhåll / Reperationer
+[[./img/ventil-tank.png]]
+*** Rengöring
+#+REVEAL_HTML: <section>
+#+REVEAL_HTML:       <img width="400" src="img/gw-polaris-1.jpg">
+#+REVEAL_HTML:       <img width="300" src="img/gw-polaris-3.jpg">
+#+REVEAL_HTML: </section>
+** Förankring i författning - TSFS 2019:56
+[[./img/tsfs-slutna-utrymmen.png]]
+** AFS 2023:10 Kap. 9
+[[./img/afs-slutna-utrymmen.png]]
+** AFS 2023:10 Kap. 9 - sammanfattningsvis
+#+ATTR_REVEAL: :frag (appear)
+- Riskbedöming
+- Gasmätning
+- Övervakning
+- Räddning ska vara förberett
+- Explosiv atmosfär - skriftligt tillstånd
+
+** Riktlinjer
+#+ATTR_REVEAL: :frag (appear)
+- MSC.581(110): Recommendations for entering enclosed spaces aboard ships
+- ISGOTT
+
+** Skyddsåtgärder
+[[./img/åtgärdstrappan.png]]
+
+** Skyddsåtgärder
+#+ATTR_REVEAL: :frag (appear)
+- Måste vi gå in i tanken?
+- Riskbedömning
+- Utrymmet är tömt och ventilerat
+- Ventilation
+- Isolering
+- Gasmätning
+
+** Skyddsåtgärder
+#+ATTR_REVEAL: :frag (appear)
+- Belysning
+- Skyddsutrustning
+  - EEBD, gasdetektor, sele
+- Säker access
+- Räddningslag, räddningsplan, räddningsutrustning
+- Vakt på plats och utbildad
+- Hur skyddar vi från obehörigt tillträde
+
+** Permit to Work System
+#+BEGIN_NOTES
+Exempel på Permit to work:
+Work aloft / Over the side
+Hot work permit
+Enclosed space entry permit
+Cold work permit
+#+END_NOTES
+#+REVEAL_HTML: <svg class="ptw-diagram"
+#+REVEAL_HTML:      viewBox="0 0 1000 650"
+#+REVEAL_HTML:      role="img"
+#+REVEAL_HTML:      aria-label="Permit to Work System">
+
+#+REVEAL_HTML:   <!-- Main system -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="1">
+#+REVEAL_HTML:     <rect x="50" y="30" width="900" height="110" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="500" y="98" text-anchor="middle"
+#+REVEAL_HTML:           font-size="34" font-family="Arial">
+#+REVEAL_HTML:       Permit to Work System
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- Row 1 -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="2">
+#+REVEAL_HTML:     <rect x="50" y="170" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="190" y="240" text-anchor="middle"
+#+REVEAL_HTML:           font-size="30" font-family="Arial">
+#+REVEAL_HTML:       Work Permit
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="3">
+#+REVEAL_HTML:     <rect x="360" y="170" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="500" y="220" text-anchor="middle"
+#+REVEAL_HTML:           font-size="28" font-family="Arial">
+#+REVEAL_HTML:       Risk Assessment
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="500" y="260" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       (TRA, SJA, RA)
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="4">
+#+REVEAL_HTML:     <rect x="670" y="170" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="810" y="240" text-anchor="middle"
+#+REVEAL_HTML:           font-size="30" font-family="Arial">
+#+REVEAL_HTML:       Checklists
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <!-- Row 2 -->
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="5">
+#+REVEAL_HTML:     <rect x="50" y="330" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="190" y="380" text-anchor="middle"
+#+REVEAL_HTML:           font-size="27" font-family="Arial">
+#+REVEAL_HTML:       Enclosed Space Entry
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="190" y="420" text-anchor="middle"
+#+REVEAL_HTML:           font-size="27" font-family="Arial">
+#+REVEAL_HTML:       Certificate
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="6">
+#+REVEAL_HTML:     <rect x="360" y="330" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="500" y="380" text-anchor="middle"
+#+REVEAL_HTML:           font-size="27" font-family="Arial">
+#+REVEAL_HTML:       Toolbox Talk
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="500" y="420" text-anchor="middle"
+#+REVEAL_HTML:           font-size="24" font-family="Arial">
+#+REVEAL_HTML:       (före-jobb samtal)
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML:   <g class="fragment" data-fragment-index="7">
+#+REVEAL_HTML:     <rect x="670" y="330" width="280" height="120" rx="8"
+#+REVEAL_HTML:           fill="#ffe44d" stroke="#b7a62c" stroke-width="2"/>
+#+REVEAL_HTML:     <text x="810" y="370" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       Rutiner för
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="810" y="405" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       administration, träning
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:     <text x="810" y="440" text-anchor="middle"
+#+REVEAL_HTML:           font-size="25" font-family="Arial">
+#+REVEAL_HTML:       och auditering
+#+REVEAL_HTML:     </text>
+#+REVEAL_HTML:   </g>
+
+#+REVEAL_HTML: </svg>
+** MSC.581(110)
+#+ATTR_HTML: :width 70% :height 70%
+[[./img/imo-res-enclosed-spaces-registry.png]]
+
+** Bild - Enclosed space entry permit
+:PROPERTIES:
+:reveal_background: img/enclosed-space-entry-checklist.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** \nbsp
+#+REVEAL_HTML: <h2 class="r-fit-text">~450</h2>
+** \nbsp
+#+REVEAL_HTML: <h2 class="r-fit-text">~190</h2>
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="case-full-text"
+:END:
+
+#+REVEAL_HTML: <div class="case-text">
+
+*Confined Space Fatality - Sharp Lady*
+
+*What happened?*
+
+The incident occurred after discharging crude oil. Equipment was lost at the bottom of a tank. It was decided that once the discharge was finished and crude oil washing completed, the equipment should be retrieved before loading the next cargo into this tank, to avoid any potential damage to the ship’s equipment.
+
+The Chief Officer and Cadet entered the cargo tank after an enclosed space work permit and risk assessment had been completed. When the Chief Officer and Cadet reached the bottom of the cargo tank they felt debilitating effects of hydrocarbon vapour present at the lower level of the cargo tank. Both the Chief Officer and Cadet attempted to activate their Emergency Escape Breathing Devices (EEBD) and exit the cargo tank. The Master observed the Cadet in difficulty and quickly entered the tank, ignoring the advice of a fellow crew member. The Chief Officer successfully exited the cargo tank but the Cadet had collapsed unconscious on the tank bottom. When the Master reached the tank bottom to aid the Cadet he was overcome by hydrocarbon vapour and collapsed.
+
+The alarm was raised and a rescue was quickly initiated. The Master and Cadet were retrieved from the bottom of the cargo tank and brought to the main deck where first aid was administered. The report concludes that the
+Master died and the Cadet was injured as a result of entering the cargo tank containing a concentration of
+hydrocarbon vapour at the bottom of the cargo tank.
+
+#+REVEAL_HTML: </div>
+#+BEGIN_NOTES
+#+END_NOTES
+
+** \nbsp
+#+REVEAL_HTML: <h2 class="r-fit-text">~450</h2>
+** Två decennium
+#+ATTR_REVEAL: :frag (appear)
+- Utbildning
+- Regler och guidelines; bland annat krav på övningar
+- Riktade kampanjer från IACS, flaggstater, IMO, P&I, ILO, fackförbund
+- Återkommande Port State CIC
+
+** \nbsp
+- Det fanns ett system
+- Checklistor etc var gjorda
+- Riskbedömning var gjord
+** Övningar
+[[./img/enclosed-space-övning.png]]
+** Övningar
+#+ATTR_REVEAL: :frag (appear)
+- Baseras på riskbedömning
+- Vilka tankar har vi?
+- Risker i tankar?
+- Möjlighet till räddning?
+** Övningar
+[[./img/enclosed-space-entry-drill-1.jpg]]
+
+** Bild - Enclosed space entry permit
+:PROPERTIES:
+:reveal_background: img/enclosed-space-entry-checklist.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Toolbox talk - möjlighet till övning
+- Gå igenom räddningsplan
+- Kolla utrustning
+- Instruera i handhavande
+- Testa kommunikation
+** Till nästa gång...
+- Inlämningsuppgift 3 öppnas
+- Läs igenom haverirapporten om Eken
