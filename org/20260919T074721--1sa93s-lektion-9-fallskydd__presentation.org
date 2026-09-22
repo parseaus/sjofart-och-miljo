@@ -1,0 +1,219 @@
+#+title: Lektion 9: Fallskydd
+#+subtitle: 1SÄ93S
+#+author:
+#+date: <2026-09-22 tis>
+#+filetags: :ppt:
+#+modified: [2026-09-22 tis 07:43]
+
+#+export_file_name: ../1sa93s-lektion-9-fallskydd.html
+
+#+include: "../config/config.org"
+
+#+reveal_title_slide:
+* Repetition / Backspegel
+** Eken
+#+REVEAL_HTML: <div class="uppgift">
+1. Varför hände det här?
+2. Hur skulle ni utbilda/träna er besättning för att undvika olyckor som denna?
+
+* Lektion 9: Fallskydd
+* Lektion 9: Fallskydd
+:PROPERTIES:
+:reveal_background: img/rope-around-neck.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Syfte
+#+ATTR_REVEAL: :frag (appear)
+- Förstå riskerna med...
+- ...och kunna använda fallskydd på rätt sätt
+- som arbetsledare kunna tillse att andra kan använda fallskydd på rätt sätt
+** bild - fallskydd kryssning
+:properties:
+:reveal_background: img/fallskydd-kryssning.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:end:
+** Åtgärdstrappan
+:PROPERTIES:
+:reveal_background: img/åtgärdstrappan.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Riskbedömning
+:PROPERTIES:
+:reveal_background: img/riskmatris.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Åtgärdstrappa
+#+ATTR_REVEAL: :frag (appear)
+1. Skyddsräcke
+2. Arbetsplattform
+3. Arbetskorg
+4. Ställning
+5. Skyddsnät
+6. Personligt fallskydd
+** Ordsallad
+#+REVEAL_HTML: <div class="two-columns">
+#+REVEAL_HTML: <div>
+
+#+ATTR_REVEAL: :frag (appear)
+- Lanyard
+- Fall arrestor
+- Scaffold
+- Chainblock
+
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: <div>
+#+ATTR_REVEAL: :frag (appear)
+- Safety harness
+- Energy absorber
+- Serf retracting lanyard
+
+#+REVEAL_HTML: </div>
+
+** Fallskyddet
+#+ATTR_REVEAL: :frag (appear)
+1. Förankringspunkt
+2. Helkroppssele
+3. Kopplingsanordning
+
+** ABC
+#+ATTR_REVEAL: :frag (appear)
+A. Anchor
+B. Body support
+C. Connecting Device
+
+
+* Video
+
+#+REVEAL_HTML: <iframe width="900" height="506" src="https://www.youtube.com/embed/dMPeICSRtVM" allowfullscreen></iframe>
+
+** Begrepp - Fall arrest
+#+ATTR_HTML: :width 70% :height 70%
+[[./img/fall-arrest.jpg]]
+
+** Begrepp - Restraint system
+
+#+ATTR_HTML: :width 80% :height 80%
+[[./img/fall-restraint.jpg]]
+
+** Begrepp - Energy absorber
+#+ATTR_HTML: :width 80% :height 80%
+[[./img/energy-absorber.png]]
+
+** Begrepp - Guide rail
+#+ATTR_HTML: :width 60% :height 60%
+[[./img/guided-rail.jpg]]
+
+** Bild - EN
+:PROPERTIES:
+:reveal_background: img/en-standard.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild - Full body harness
+:PROPERTIES:
+:reveal_background: img/full-body-harness.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** bild - energy absorber
+:properties:
+:reveal_background: img/retractable-fall-arrestor.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:end:
+
+** Bild - guided fall
+:PROPERTIES:
+:reveal_background: img/guided-fall.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Förankring i författning?
+10 min - leta rätt på vad som gäller....
+*** TSFS 2019:56 --> AFS 1981:14
+
+*** AFS 2023:10 Avd. III kap. 4
+#+ATTR_REVEAL: :frag (appear)
+- 4§ Särskilda hänsyn ska tas till...
+  - Stabila infästningar
+  - särskilda åtgärder
+- 12§ ...anordningar som är avsedda att stå på
+- 13§ ...dimensionerade för belastningen
+- 15§ ...ska personligt fallskydd användas
+- 16§...räddningsplan
+
+** bild - support line
+:properties:
+:reveal_background: img/support-line.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:end:
+** Fallfaktor
+h/H
+
+h: fallhöjd
+H: linans längd
+** Service och inspektion
+#+ATTR_REVEAL: :frag (appear)
+- Minst en gång om året
+- "Competent person"
+- Livslängd: ~10 år enligt tillverkarna
+** Service och inspektion
+
+#+REVEAL_HTML: <div class="two-columns">
+#+REVEAL_HTML: <div>
+#+ATTR_REVEAL: :frag (appear)
+- Markeringar
+- Slitage
+- Sprickor/deformationer
+- Sömmar
+- Fläckar/missfärgning/målarfärg
+- Rost
+- etc..
+
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: <div>
+
+#+ATTR_HTML: :alt Riskmatris
+[[file:./img/sömmar.jpg]]
+
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: </div>
+** Bild - utsida
+:properties:
+:reveal_background: ./img/utsida.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:end:
+** Suspension Trauma
+
+#+REVEAL_HTML: <iframe width="900" height="506" src="https://www.youtube.com/embed/A23cQ1H-Fgk?start=159" allowfullscreen></iframe>
+** Suspension Trauma
+#+ATTR_REVEAL: :frag (appear)
+- Blod samlas i benen
+- Medvetslöshet och försämring av syresättning
+- DÖD
+** Suspension Trauma
+#+ATTR_REVEAL: :frag (appear)
+- Stå/avlasta ben
+- Rör benen
+- Snabb räddning!!
+** Fallskydd räcker inte...
+#+ATTR_REVEAL: :frag (appear)
+Vi behöver en räddningsplan
