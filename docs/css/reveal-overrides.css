@@ -380,3 +380,30 @@ section.full-bg-slide > h3 {
   font-size: 0.38em;
   font-style: italic;
 }
+
+/* Two-column reveal.js slides */
+.reveal .two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2em;
+  width: 100%;
+  align-items: start;
+  text-align: left;
+}
+
+.reveal .two-columns > div {
+  min-width: 0;
+}
+
+/* Optional headings within columns */
+.reveal .two-columns h3,
+.reveal .two-columns h4 {
+  margin-top: 0;
+}
+
+/* Optional: make images fit their column */
+.reveal .two-columns img {
+  max-width: 100%;
+  max-height: 58vh;
+  object-fit: contain;
+}
