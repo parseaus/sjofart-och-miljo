@@ -156,6 +156,32 @@
   margin-bottom: 0;
 }
 
+.reveal .slides section.case-full-text-alt {
+  text-align: left;
+}
+
+.reveal .slides section.case-full-text-alt h2 {
+  margin-bottom: 0.25em;
+}
+
+.reveal .slides section.case-full-text-alt .case-text {
+  max-width: 95%;
+  max-height: 100vh;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75em;       /* was 0.43em → ~10% larger */
+  line-height: 1.35;       /* was 1.16 → more spacing between lines */
+  text-align: justify;
+  hyphens: auto;
+}
+
+.reveal .slides section.case-full-text-alt .case-text p {
+  margin: 0 0 0.75em;      /* was 0.55em → more space between paragraphs */
+}
+
+.reveal .slides section.case-full-text-alt .case-text p:last-child {
+  margin-bottom: 0;
+}
 /* =========================================================
    SVG diagrams
    ========================================================= */
@@ -406,4 +432,8 @@ section.full-bg-slide > h3 {
   max-width: 100%;
   max-height: 58vh;
   object-fit: contain;
+}
+
+.reveal .two-columns.top-aligned {
+  align-items: start;
 }

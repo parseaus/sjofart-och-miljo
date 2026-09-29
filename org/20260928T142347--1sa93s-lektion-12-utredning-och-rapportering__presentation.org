@@ -1,0 +1,269 @@
+#+title: Lektion 12: Utredning och rapportering
+#+subtitle: 1SÄ93S
+#+author:
+#+date: <2026-09-28 mån>
+#+filetags: :ppt:
+#+modified: [2026-09-29 tis 20:22]
+
+#+export_file_name: ../1sa93s-lektion-12-utredning-och-rapportering.html
+
+#+include: "../config/config.org"
+
+#+reveal_title_slide:
+
+* Lektion 12: Utredning och rapportering
+* Hänvisningar i TSFS 2019:56...
+** "....i AFS 2001:1  -->  AFS 2023:01 etc.."
+** \nbsp
+#+REVEAL_HTML: <h2 class="r-fit-text">Fel!</h2>
+** Gäller tillsvidare som det är skrivet i 2019:56
+#+ATTR_REVEAL: :frag (appear)
+- Uppdatering sannolikt under nästa år
+
+** Alltså...
+[[./img/pudel.png]]
+
+#+ATTR_REVEAL: :frag (appear)
+...så gäller AFS 2001:3
+#+ATTR_REVEAL: :frag (appear)
+...och så vidare
+* Lektion 12: Utredning och rapportering
+* Mål för dagen
+** Fokusområden
+#+ATTR_REVEAL: :frag (appear)
+1. Lagstiftning
+2. Utredning av incidenter och olyckor - varför och vad
+3. Metodik och förhållningssätt
+* Lagstiftning och regelverk
+*** Uppföljning
+#+ATTR_REVEAL: :frag (appear)
+*Arbetsmiljölagen 3. kap. 2a§*
+
+#+ATTR_REVEAL: :frag (appear)
+"Arbetsgivaren ska planera, leda och kontrollera verksamheten..."
+#+ATTR_REVEAL: :frag (appear)
+*TSFS 2019:56 --> AFS 2001:1*
+
+#+ATTR_REVEAL: :frag (appear)
+"Arbetsgivaren ska regelbundet undersöka arbetsmiljöförhållandena..."
+*** Utredning
+#+ATTR_REVEAL: :frag (appear)
+*Arbetsmiljölagen 3. kap 2a§*
+#+ATTR_REVEAL: :frag (appear)
+"...han ska utreda arbetsskador..."
+
+#+ATTR_REVEAL: :frag (appear)
+*AFS 2001:1*
+#+ATTR_REVEAL: :frag (appear)
+"...ska arbetsgivaren utreda orsakerna..."
+
+#+ATTR_REVEAL: :frag (appear)
+*ISM-koden kap. 9*
+#+ATTR_REVEAL: :frag (appear)
+"...should include procedures ensuring...accidents are reported to the company, investigated and analysed"
+*** \nbsp
+#+ATTR_REVEAL: :frag (appear)
+*Sjölagen 6 kap. 14§*
+#+ATTR_REVEAL: :frag (appear)
+Om befälhavarens ansvar att rapportera...
+* Rapportering -> Utredning
+** Varför ska vi rapportera och utreda?
+
+** Bild - PDSA
+:PROPERTIES:
+:reveal_background: img/pdsa.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="gles-lista"
+:END:
+#+REVEAL_HTML: <style>.gles-lista li { margin-bottom: 1.5em !important; }</style>
+Vilka verktyg för att följa upp och rapportera kring arbetsmiljön har ni stött på ombord?
+
+** Bild - Heinrich's pyramid
+:PROPERTIES:
+:reveal_background: img/pyramid.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Sidney Dekker - Why things go wrong
+#+REVEAL_HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/pYlIEMNhqM4?si=MSvoXLJW_21Pn5c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+** \nbsp
+#+REVEAL_HTML: <h2 class="r-fit-text">No-blame policy</h2>
+** Vad ska vi utreda: ISM-koden kap. 9
+- Non-conformities
+- Accidents
+- Hazardous situations
+
+** Non-conformity
+#+ATTR_REVEAL: :frag (appear)
+- Avvikelse
+- Krav som inte är uppfyllt
+
+*** Non-conformity
+#+ATTR_REVEAL: :frag (appear)
+- *Observation*
+  - Mindre avvikelse eller förbättring som ej kräver omedelbar åtgärd.
+- *Non-conformity*
+  - Avvikelse som måste åtgärdas inom viss tid
+- *Major non-conformity*
+  - Avvikelse som utgör *direkt fara*
+
+*** Non-conformity: Exempel
+#+ATTR_REVEAL: :frag (appear)
+- Livräddningsutrustning som inte fungerar
+- Procedur som inte följs
+- Felaktigheter i SMS
+
+** Hazardous situations (Near Miss)
+#+ATTR_REVEAL: :frag (appear)
+- MEPC.7/Circ.7
+#+ATTR_REVEAL: :frag (appear)
+/"A sequence of events and/or conditions that could have resulted in loss. This
+loss was prevented only by a fortuitous break in the chain of events"/
+
+*** Near miss: exempel
+#+ATTR_REVEAL: :frag (appear)
+- Kollision undviks pga. sen undanmanöver
+- Felinställd ventil upptäcks innan olycka sker
+- Förtöjning brast och slog över däck men ingen skadad
+
+** Accident
+
+#+ATTR_HTML: :width 850
+[[./img/hagar.jpg]]
+
+#+ATTR_REVEAL: :frag (appear)
+- Inte närmre definierat..
+- *Marine Casualty*
+  - Händelse i direkt relation till fartygsdrift lett till materiell skada, personskada eller miljöskada.
+
+*** NC, accident eller near miss?
+:PROPERTIES:
+:reveal_extra_attr: class="case-full-text-alt"
+:END:
+
+#+REVEAL_HTML: <div class="case-text"><p class="fragment"><strong>1.</strong> Ett fartyg behöver plötsligt väja för en fiskebåt och seglar över ett område som är 7 m djupt i sjökortet. Djupgåendet för fartyget är 7,5 m. Lyckligtvis är det 1 m högvatten vid tillfället. Varningarna för djupkurvorna hade inte uppdaterats innan avgång.</p><p class="fragment"><strong>2.</strong> En besättningsmedlem har inte rätt certifikat för sin tjänst.</p><p class="fragment"><strong>3.</strong> Motormannen halkar på en blöt fläck och stukar foten. Han kan stödja på foten men har lite ont.</p></div>
+
+** Olycksutredning: Huvudsyfte
+#+ATTR_REVEAL: :frag (appear)
+1. Att förstå vad som hände
+2. Att skapa förståelse för *varför* det hände
+3. Att utveckla förslag på att förebygga att det händer igen
+
+** Bild - Fokus över tid
+:PROPERTIES:
+:reveal_background: img/fokus.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Olycksmodeller
+[[./img/sekvens.png]]
+** Bild - Ostmodellen
+:PROPERTIES:
+:reveal_background: img/ost.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Olycksmodeller
+[[./img/epi.png]]
+** Bild - Processteg
+:PROPERTIES:
+:reveal_background: img/processteg.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Bild - händelseförlopp
+:PROPERTIES:
+:reveal_background: img/förlopp.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Sjöförklaring och...
+#+ATTR_REVEAL: :frag (appear)
+- Befälhavarens skyldighet att rapportera... SjöL kap. 6 14§
+- Sjöförklaring... SjöL 18 kap. 12§
+  - Grundstötning
+  - Kollision
+  - osv...
+
+#+ATTR_REVEAL: :frag (appear)
+Del av främst den administrativa och juridiska processen - utreder *ansvar*
+** ...haverirapport
+#+ATTR_REVEAL: :frag (appear)
+Analyserar orsaker till olyckan och ger rekommendationer för att förbättra säkerheten
+** Bild - Challenger
+:PROPERTIES:
+:reveal_background: img/challenger.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Challenger och Columbia
+
+#+REVEAL_HTML: <div class="two-columns"><div><ul><li class="fragment">Kostnader, schema och säkerhet</li><li class="fragment">Centraliserat beslutsfattande</li><li class="fragment">Kommunikation blockerades</li><li class="fragment">"Safety drift"</li></ul></div><div><img src="img/launch.jpg" alt="Rymdfärja"></div></div>
+** Safety drift
+[[./img/alaska-airline.jpg]]
+** Safety drift
+
+#+REVEAL_HTML: <div class="two-columns top-aligned"><div><h3>Smörjning</h3><ol><li class="fragment">1967: 300–350 tim</li><li class="fragment">1987: 700 tim</li><li class="fragment">1988: 1 000 tim</li><li class="fragment">1991: 1 200 tim</li><li class="fragment">1994: 1 600 tim</li><li class="fragment">1996: Var 8:e månad: ca 2550 tim</li></ol></div><div><h3>Mätning av spel</h3><ol><li class="fragment">1985: 3 600 tim</li><li class="fragment">1988: 6 400 tim</li><li class="fragment">1996: 9 550 tim</li></ol></div></div>
+
+** Safety drift
+#+ATTR_REVEAL: :frag (appear)
+- Inte smort på 5000 flygtimmar
+  - Tillverkarens rekommendationer: 300-350 tim
+- Spelet var precis inom godkänt spann vid sista mätningen
+  - Nästa mätning var 9500 timmar bort istället för 3600.
+
+** Bild - Processteg
+:PROPERTIES:
+:reveal_background: img/processteg.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** El Faro
+[[./img/el-faro.jpg]]
+*** Faktainsamling
+#+ATTR_REVEAL: :frag (appear)
+- *Vrak och fysiska spår:* sonarsökning, undervattensbilder och bärgning av färdskrivaren (VDR).
+- *Händelseförlopp:* VDR-ljud och data, positioner, vädermeddelanden och kommunikation.
+- *Sammanhang:* intervjuer, offentliga förhör, fartygshandlingar och jämförelse med systerfartyget /El Yunque/.
+
+*** Analys med slutsatser
+#+ATTR_REVEAL: :frag (appear)
+- *Navigation:* vilka prognoser fanns tillgängliga ombord, och hur påverkade de kursbesluten?
+- *Förlisningsförlopp:* simuleringar; slagsida, förlust av framdrift och ytterligare vatteninträngning mot VDR-data och tekniska underlag.
+- *Människor och organisation:* analysera bryggsamarbete, rederiets säkerhetsarbete, skadebegränsning och utrymning.
+
+*** Rekommendationer
+#+ATTR_REVEAL: :frag (appear)
+- *Fynd:* en öppen vattentät lucka bidrog till vatteninträngningen.
+  - *Åtgärd:* fjärrindikering
+- *Fynd:* skada på oskyddade sjövattenrör bidrog
+  - *Åtgärd:* skydda sjövattenledningar i lastrum.
+- *Fynd:* öppna livbåtar var olämpliga
+  - *Åtgärd:* slutna livbåtar och förbättrad sjösättbarhet vid slagsida.
+
+*** Rapport
+NTSB/MAR-17/01; US Coast Guard, /Report of Investigation/ (2017); [[https://data.ntsb.gov/Docket/?NTSBNumber=DCA16MM001][NTSB:s utredningsakt DCA16MM001]]
+** Vad tar vi med oss...
+#+ATTR_REVEAL: :frag (appear)
+- Varför?
+- NC, Near Miss och Accident
+- Varför no-blame policy
+- Metodik
