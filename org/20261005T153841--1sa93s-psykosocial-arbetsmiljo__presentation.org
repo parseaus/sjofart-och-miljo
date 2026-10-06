@@ -1,0 +1,239 @@
+#+title: Psykosocial arbetsmiljö
+#+subtitle: 1SÄ93S
+#+author:
+#+date: <2026-10-05 mån>
+#+filetags: :ppt:
+#+modified: [2026-10-06 tis 09:41]
+
+#+export_file_name: ../1sa93s-psykosocial-arbetsmiljo.html
+
+#+include: "../config/config.org"
+
+#+reveal_title_slide:
+
+* Psykosocial arbetsmiljö
+** Psykosocial arbetsmiljö
+Vad menas?
+** Psykosocial arbetsmiljö enligt AMV
+*** Organisatorisk arbetsmiljö
+Hur arbetsmiljön ordnas, leds, fördelas och kommuniceras
+#+ATTR_REVEAL: :frag (appear)
+- arbetsbelastning
+- ansvar
+- befogenheter
+- bemanning
+- möjlighet att påverka
+*** Social arbetsmiljö
+Samspelet mellan människor
+#+ATTR_REVEAL: :frag (appear)
+- samarbete
+- arbetsklimat
+- stöd från chefer och kollegor
+- respekt
+** TSFS 2019:56
+#+ATTR_REVEAL: :frag (appear)
+- Idag gällande: AFS 2015:4
+- AFS 2023:2... Kapitel 2
+** Arbetsgivarens ansvar
+[[./img/paragraf-6.png]]
+** Vad är skillnaden?
+- Konflikt
+- Oenighet
+- Diskriminering/Kränkande särbehandling
+** Diskriminering
+/"(...) lika rättigheter och möjligheter oavsett kön, könsöverskridande identitet eller uttryck, etnisk tillhörighet, religion eller annan trosuppfattning, funktions­nedsättning, sexuell läggning samt ålder"/
+** Diskriminering
+#+ATTR_REVEAL: :frag (appear)
+*Diskrimineringsgrunder*
+#+ATTR_REVEAL: :frag (appear)
+1. Kön
+2. Könsöverskridande identitet eller uttryck
+3. Etnisk tillhörighet
+4. Religion eller annan trosuppfattning
+5. Sexuell läggning
+6. Funktionsnedsättning
+7. Ålder
+
+** Diskriminering
+#+ATTR_REVEAL: :frag (appear)
+*Former av diskriminering*
+#+ATTR_REVEAL: :frag (appear)
+1. Direkt
+2. Indirekt
+3. Bristande tillgänglighet
+4. Trakasserier
+5. Sexuella trakasserier
+6. Instruktioner
+** Kränkande särbehandling
+
+/"Handlingar som riktas mot en eller flera arbetstagare på ett kränkande sätt och som kan leda till ohälsa eller att arbetstagare sätts utanför arbetsplatsens gemenskap"/
+** Kränkande behandling ombord
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift long-text"
+:END:
+
+Du som överstyrman får kännedom om att en matros under längre tid har behandlats illa av två äldre kollegor.
+
+De två äldre matroserna har arbetat i fartyget under flertalet år och den utsatta är betydligt yngre och ny ombord.
+
+Vad som har hänt är för dig något oklart men vad det verkar som så handlar det om allmän otrevlighet, glåpord, medvetet undanhållande av information och att man utsatt den här matrosen för situationer i syfte att få honom att se "dum" ut.
+
+- Vad har du som arbetsledare för ansvar och skyldigheter?\\
+- Har vi något lagrum som kan hjälpa oss?\\
+- Vad gör vi praktiskt?
+
+
+** Stress
+/"...innebär en aktivering av det sympatiska nervsystemet (...) ökning av stresshormonerna adrenalin, noradrenalin och kortisol"/
+
+** Stress: läget i landet
+[[./img/stress-sverige.png]]
+
+** Stress: läget i landet
+[[./img/stress-sverige-2.png]]
+
+** Stress: sjömän
+[[./img/stress-sjöman.png]]
+
+** Stress: sjömän
+[[./img/stress-sjömän-2.png]]
+
+** Stress: Generaliserad indelning
+#+ATTR_REVEAL: :frag (appear)
+- Akut stress: Kort tid
+- Långvarig stress: Yrkesrelaterad stress
+** Stress: kroppsliga reaktioner
+#+ATTR_REVEAL: :frag (appear)
+När vi upplever hot:
+#+ATTR_REVEAL: :frag (appear)
+- sympatiska systemet aktiveras: stresshormoner frigörs
+- kroppen gör sig redo för att kämpa eller fly
+- skadligt över tid: hjärtproblem, utmattningssyndrom, fibromyalgi mm.
+
+** Stresskonen
+:PROPERTIES:
+:reveal_background: img/stresskonen.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Akut stress: Ledarperspektiv
+#+ATTR_REVEAL: :frag (appear)
+Erfarna ledare, vid hög grad av stress.
+#+ATTR_REVEAL: :frag (appear)
+- Tappar överblicken
+- Fokuserar och vill bli "operativ"
+- Tänker bakåt istället för framåt
+- Tappar känslan för tid
+- Slutar delegera
+- Prioriterar fel
+- Slutar leta efter information
+- Ger oklara order
+
+** Yrkesrelaterad stress
+#+ATTR_REVEAL: :frag (appear)
+Krav:
+#+ATTR_REVEAL: :frag (appear)
+- Oklara förväntningar
+- Påfrestning från hot och våld
+- Krävande relationer
+- Svåranvända IT-system
+- Stor arbetsmängd
+- Hög personalomsättning
+** Yrkesrelaterad stress
+#+ATTR_REVEAL: :frag (appear)
+Bristande resurser:
+#+ATTR_REVEAL: :frag (appear)
+- Avsaknad av stöd från chefer
+- Avsaknad av stöd från kollegor
+- Otillräckliga kunskaper
+- Otillräckligt med tid
+- Oklara befogenheter
+** Yrkesrelaterad stress: Varningssignaler
+#+ATTR_REVEAL: :frag (appear)
+- Sjukskrivningar
+- Olyckor och tillbud
+- Irritation
+- Samarbetssvårigheter
+- Konflikter
+- Svårt att hinna med
+- Låg kvalitet på arbetet
+- Övertidsarbete, jobbar över på raster
+** Gruppuppgift
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+Hur kan vi ombord arbeta för att motverka yrkesrelaterad stress i vår roll som maskinchef eller överstyrman?
+
+Hitta fem (5) exempel.
+** Vila...
+#+ATTR_REVEAL: :frag (appear)
+Lagen om vilotid för sjömän.
+#+ATTR_REVEAL: :frag (appear)
+- Hamnanlöp: lossning, lastning etc.
+- För mycket väder
+- Brandlarm, vaktlarm etc.
+- Nya besättningsmän
+- Övertid
+- Jetlag
+
+** Hur mår vi...
+:PROPERTIES:
+:reveal_background: img/hur-mår-vi.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Vad får oss att må bra ombord...
+:PROPERTIES:
+:reveal_background: img/happiness.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Gruppuppgift: Vad får oss att må bra ombord?
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift long-text"
+:END:
+Rangordna:
+1. *Bra* internetuppkoppling för att kolla nyheter, sociala medier etc etc.
+2. Sociala aktiviteter ombord (Spelkvällar, gemensamma aktiviteter iland, etc. etc.)
+3. Arbetet
+4. Kontakt med familj och vänner hemma
+5. Träningsmöjligheter
+6. Landgång
+
+** Vad får oss att må bra ombord...
+:PROPERTIES:
+:reveal_background: ./img/må-bättre.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** \nbsp
+1. Sociala aktiviteter ombord
+2. Arbetet
+3. Landgång
+4. Kontakt med familj
+5. Träning
+6. Internet
+** Var mår vi bäst...
+[[./img/region.png]]
+
+** Sammanfattningsvis
+#+ATTR_REVEAL: :frag (appear)
+- Diskriminering
+- Kränkande särbehandling
+- Stress
+- Välmående
+
+** Sammanfattningsvis
+#+ATTR_REVEAL: :frag (appear)
+- Stöd: chefer och kollegor
+- Vad kan vi själva göra ombord
+- Det finns alltid andra skorstenar...

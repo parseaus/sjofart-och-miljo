@@ -111,6 +111,28 @@
   text-align: left;
 }
 
+/* Longer task slides */
+.reveal .slides section.uppgift.long-text {
+  box-sizing: border-box;
+  font-size: 0.75em; /* 30px when the main font is 40px */
+  line-height: 1.25;
+  color: #111;
+}
+
+.reveal .slides section.uppgift.long-text p {
+  margin: 0 0 0.65em;
+}
+
+.reveal .slides section.uppgift.long-text p:last-child {
+  margin-bottom: 0;
+}
+
+.reveal .slides section.uppgift.long-text h2,
+.reveal .slides section.uppgift.long-text h3 {
+  font-size: 1.3em;
+  margin-bottom: 0.6em;
+  text-transform: none;
+}
 /* =========================================================
    Centered image stacks
    ========================================================= */
