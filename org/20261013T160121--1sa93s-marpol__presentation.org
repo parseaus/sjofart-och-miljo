@@ -1,0 +1,269 @@
+#+title: MARPOL
+#+subtitle: 1SÄ93S
+#+author:
+#+date: <2026-10-13 tis>
+#+filetags: :ppt:
+#+modified: [2026-10-14 ons 14:11]
+
+#+export_file_name: ../1sa93s-marpol.html
+
+#+include: "../config/config.org"
+
+#+reveal_title_slide:
+
+* MARPOL
+
+*** \nbsp
+:PROPERTIES:
+:reveal_background: img/miljöpåverkan.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+*** Miljöpåverkan
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+1. Vilken utsläppstyp från fartyg bidrar till övergödning?
+2. Vilken miljöskada kan utsläpp av ballastvatten från andra havsområden medföra?
+3. Vad kan vi som besättning göra för att minska utsläpp av växthusgaser?
+
+*** \nbsp
+:PROPERTIES:
+:reveal_background: img/miljöpåverkan.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+*** \nbsp
+:PROPERTIES:
+:reveal_background: img/lagstiftning.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** IMO
+#+ATTR_REVEAL: :frag (appear)
+- MARPOL
+- Antifouling System Code
+- Ballast Water Management Convention
+- Ship Recycling Convention
+- Nairobi Wreck Removal Convention
+- CLC, Civil Liability Convention
+** Torrey Canyon
+https://www.youtube.com/watch?v=zmGvuBAHc-Q
+** Bild - Marpols Annex
+:PROPERTIES:
+:reveal_background: img/marpol-annex.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild - Brott
+:PROPERTIES:
+:reveal_background: img/pollution-brott.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** \nbsp
+:PROPERTIES:
+:reveal_extra_attr: style="text-align: left;"
+:END:
+/"Fines or penalties imposed for breaches of MARPOL regulations are not covered by the Club"/
+** \nbsp
+:PROPERTIES:
+:reveal_extra_attr: style="text-align: left;"
+:END:
+/"Incorrect entries in the oil record book are considered by USCG to be a false statement and an obstruction of justice which is subject to criminal proceedings against the relevant crew members."/
+
+/"A reward of 50% of the fine imposed is offered as an incentive to those who report an alleged violation (so-called “whistle-blowers”)."/
+* MARPOL Annex I, II, III
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/marpol-annex.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/survey-och-certifiering.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Specialområden
+:PROPERTIES:
+:reveal_extra_attr: style="text-align: left;"
+:END:
+/"[[https://www.imo.org/en/ourwork/environment/pages/special-areas-marpol.aspx][sea areas]] where for recognized technical reasons relating to their oceanographical and ecological condition and to their sea traffic, the adoption of special mandatory methods for the prevention of sea pollution is required"/
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/annex-1.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Annex I - Syfte
+#+ATTR_REVEAL: :frag (appear)
+- Förebygga förorening från olja
+
+** Annex I - Tillämpning
+#+ATTR_REVEAL: :frag (appear)
+- Förebygga förorening från olja
+- Oljetankers >150 GT
+- Andra fartyg >400 GT
+- Resten...
+** Annex I - Certifiering
+#+ATTR_REVEAL: :frag (appear)
+- IOPP: International Oil Pollution Prevention Certificate
+  - Supplement Form A: "Ships other than oil tankers"
+  - Supplement Form B: Oil tankers
+** Annex I - Dokument
+#+ATTR_REVEAL: :frag (appear)
+- Oil Record Book
+  - Part I
+  - Part II
+
+#+ATTR_REVEAL: :frag (appear)
+- SOPEP (Shipboard Oil Pollution Emergency Plan)
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/reg-1.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/maskinutrymme.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/lws.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Uppgift 1
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+1. Du arbetar på ett fartyg över 400 GT som befinner sig på Nordatlanten. Ni behöver länsa ut 15 m3 länsvatten (bilge). Vilka är kraven för att ni ska få göra det? (Reg. 15)
+2. Hur ska detta dokumenteras?
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/oil-tankers.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Uppgift 2
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+Hur skiljer sig länsning av slopvatten från länsning av "bilge water"? (reg. 34)
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/uppgift-2.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Regulation 38: Reception facilities
+Skyldighet att tillse att det finns faciliteter för mottagning av "oily residues"
+** SOPEP (Shipboard Oil Pollution Emergency Plan) - Reg. 37
+#+ATTR_REVEAL: :frag (appear)
+- Procedurer för rapportering
+- Lista på kontakter vid oljespill
+  - [[https://gisis.imo.org][GISIS]]
+- Handlingsplan
+- Procedurer och kontaktperson för samordning med myndigheter
+* Annex II
+** Annex II - Syfte
+Skadliga flytande ämnen
+** Annex II - Tillämpning
+Alla fartyg certifierade att frakta skadliga flytande ämnen i bulk
+** Annex II - Certifiering
+- IPPC-NLS
+  - International Pollution Prevention Certificate for Noxious Liquid Substances (NLS)
+** Annex II - Dokument
+- Cargo Record Book (for ships carrying NLS in bulk)
+- Procedures and Arrangement Manual (P&A)
+- SOPEP
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/nls.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/ibc-koden.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/reg-12.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Annex II: Discharge
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+Ni har lossat en last av kategori X. Vilka är kraven för att ni ska kunna tömma lastrester överbord (reg. 13)?
+
+* Annex III
+** Annex III - Syfte
+Förpackade skadliga ämnen
+** Annex III - Tillämpning
+Fartyg som fraktar skadliga ämnen (Farligt gods)
+** Annex III - Dokument
+Enligt IMDG-koden
+** Annex III - Krav
+- Skadliga ämnen ska förpackas för att motverka miljöpåverkan
+- Ska märkas och stuvas för att motverka miljöpåverkan
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/quiz.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/marpol-annex.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
