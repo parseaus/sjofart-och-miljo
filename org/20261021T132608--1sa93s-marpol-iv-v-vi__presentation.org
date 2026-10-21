@@ -1,0 +1,266 @@
+#+title: MARPOL IV, V, VI
+#+subtitle: 1SÄ93S
+#+author:
+#+date: <2026-10-21 ons>
+#+filetags: :ppt:
+#+modified: [2026-10-21 ons 21:34]
+
+#+export_file_name: ../1sa93s-marpol-iv-v-vi.html
+
+#+include: "../config/config.org"
+
+#+reveal_title_slide:
+
+** Bild - Marpols Annex
+:PROPERTIES:
+:reveal_background: img/marpol-annex.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+* MARPOL IV, V, VI
+
+** Annex IV - Syfte
+[[./img/avlopp.jpg]]
+#+ATTR_REVEAL: :frag (appear)
+- Förebygga förorening avloppsvappen (sewage)
+
+** Annex IV - Tillämpning
+#+ATTR_REVEAL: :frag (appear)
+- Faryg >400 BT samt fartyg certifierade för fler än 15 personer
+** Annex IV - Certifiering
+#+ATTR_REVEAL: :frag (appear)
+- International Sewage Pollution Prevention Certificate
+** Systemalternativ (regel 9)
+#+ATTR_REVEAL: :frag (appear)
+1. Reningsanläggning - Sewage Treatment Plant
+2. Finfördelning och desinfektion
+3. Uppsamlingstank
+** 1. Reningsanläggning
+- Behandlar avloppsvattnet så det uppfyller tillämpliga krav
+- Typgodkänd
+- Flytande fasta partiklar/missfärgning
+** 2. Finfördelning och desinfektion
+- Finfördelar och desinficerar
+- 3nm från närmaste land
+- tillfällig lagriing
+** 3. Uppsamlingstank
+- För hela resan
+- Pumpas iland alt. där utsläppsvillkoren är uppfyllda
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/lastfartyg.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Vad gäller?
+#+ATTR_REVEAL: :frag (appear)
+- Minst 400 BT -> Annex IV regel 2.1
+- Regel 11.1
+- Reningsanläggning - inget generellt minimiavstånd (9.1.1 och 11.1.2)
+- Finfördelat/decin. (9.1.2 och 11.1.1) - 3 nm
+- Obehandlat - 12 nm (9.1.3 och 11.1.1)
+- Nationella regler...?
+
+** \nbsp
+:PROPERTIES:
+:reveal_background: img/färja.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Vad gäller?
+#+ATTR_REVEAL: :frag (appear)
+- Minst 400 BT - Annex IV regel 2.1, regel 1.10
+- Östersjön - regel 1.6.1 och 11.3
+- Reningsanläggning - regel 9.2.1 och 11.3
+- Alternativ?
+  - Holding tank (regel 9.2.2)
+
+** Bild - Marpols Annex
+:PROPERTIES:
+:reveal_background: img/marpol-annex.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+* ANNEX V - Garbage
+** Video
+#+begin_export html
+<iframe
+  width="960"
+  height="540"
+  src="https://www.youtube.com/embed/L_jj1k8GX0U?si=VNJdxGaKZem2tfuT"
+  title="YouTube video player"
+  style="display: block; margin: 0 auto; max-width: 100%; border: 0;"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+#+end_export
+** Annex V - Syfte
+[[./img/sopor.jpg]]
+** Annex V - Tillämpning
+#+ATTR_REVEAL: :frag (appear)
+- Ingen kommer undan
+
+** Annex V - Dokument
+#+ATTR_REVEAL: :frag (appear)
+[[./img/skylt.jpg]]
+** Annex V - Dokument
+#+ATTR_REVEAL: :frag (appear)
+- Skyltar
+- Garbage Management Plan (> 400 BT eller 15 personer)
+- Garbage Record Book (> 400 BT eller 15 personer)
+** Bild - Specialområden
+:PROPERTIES:
+:reveal_background: img/specialomr.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Annex V - Kategorisering
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+Kategorisera följande enligt reg. 1:
+1. Aluminiumburkar
+2. Syntetiskt rep
+3. Luftfilter
+4. Rester av pappersmassa (last)
+
+** Annex V - Dumpning
+:PROPERTIES:
+:reveal_background: #fffff2
+:reveal_extra_attr: class="uppgift"
+:END:
+1. Du befinner dig norr om Gotland och har en mängd frigolit du vill bli av med..
+2. Du har matavfall malt till mindre än 25 mm och befinner dig mitt på Atlanten (reg. 4)
+3. Du rengör på däck med "Cold Wash" vad gäller för spillvattnet i specialområde (reg. 6)?
+4. Väster om Mauritanien och en ko har tyvärr avlidit under resan..
+
+** Annex V - Dokumentation
+#+ATTR_REVEAL: :frag (appear)
+- Skyltning om 12m LOA
+- Garbage Management Plan (>100BT / 15pers)
+- Garbage Record Book (>400 BT / 15 pers)
+
+* Annex VI
+
+** Annex VI - Syfte
+[[./img/luft.jpg]]
+
+** Annex V - Tillämpning
+#+ATTR_REVEAL: :frag (appear)
+- Ingen kommer undan
+- Certifikat >400BT
+- Kraven varierar
+
+** Annex V - Certifiering
+#+ATTR_REVEAL: :frag (appear)
+- IAPPC - International Air Pollution Prevention Certificate
+- IEEC - International Energy Efficiency Certificate
+
+** Annex V - Dokument
+#+ATTR_REVEAL: :frag (appear)
+- SEEMP - Ship Energy Efficiency Management Plan
+- Ozone-Depleting Substance Record Book
+- Marine Sulphur Record Book
+- Bunker Delivery Note
+
+** Bild - ECA
+:PROPERTIES:
+:reveal_background: img/eca.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+** Regel 12, 13 & 12
+- SOx
+- NOx
+- ODS
+** SOx - Regel 14
+Svaveloxider
+#+ATTR_REVEAL: :frag (appear)
+- Skadar lufvägar
+- Försurning
+- 0,5 och 0,10 viktprocent
+- scrubbers, "bättre" bränslen
+** NOx - Regel 13
+Kväveoxider
+#+ATTR_REVEAL: :frag (appear)
+- Skadar luftvägar
+- Försurning
+- Marknära ozon
+- Tier I, Tier II, Tier III
+- Över 130 kW
+** ODS - Regel 12
+Ozone-Depleting Substances
+#+ATTR_REVEAL: :frag (appear)
+- Bryter ner ozon
+- Tex kylmedium
+- CFC, HCFGC, haloner
+- Nya installationer förbjudna
+- Finns krav på ODS-journal
+** Regel 15.. VOC
+Volatile Organic Compounds
+#+ATTR_REVEAL: :frag (appear)
+- VOC Manageement Plan för råoljetankers
+- Ger hamnstaten rätt att reglera utsläpp
+
+** Regel 16 - Incinerator
+#+ATTR_REVEAL: :frag (appear)
+- Vissa saker får man inte bränna
+- Typgodkännande
+
+** Annex VI - Energy Efficiency
+#+ATTR_REVEAL: :frag (appear)
+- EEDI
+- EEXI
+- SEEMP
+- CII
+
+** Bild - EEDI
+:PROPERTIES:
+:reveal_background: img/eedi.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild - EEXI
+:PROPERTIES:
+:reveal_background: img/eexi.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild - CII
+:PROPERTIES:
+:reveal_background: img/cii.jpg
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild - SEEMP
+:PROPERTIES:
+:reveal_background: img/seemp.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
+
+** Bild - Marpols Annex
+:PROPERTIES:
+:reveal_background: img/marpol-annex.png
+:reveal_background_size: contain
+:reveal_background_position: center
+:reveal_extra_attr: class="full-bg-slide"
+:END:
